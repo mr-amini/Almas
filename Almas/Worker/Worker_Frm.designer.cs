@@ -28,18 +28,18 @@
         /// </summary>
         private void InitializeComponent()
         {
+            Klik.Windows.Forms.v1.EntryLib.ELListBoxSelectionStyles elListBoxSelectionStyles9 = new Klik.Windows.Forms.v1.EntryLib.ELListBoxSelectionStyles();
+            Klik.Windows.Forms.v1.EntryLib.ELListBoxItem elListBoxItem5 = new Klik.Windows.Forms.v1.EntryLib.ELListBoxItem();
+            Klik.Windows.Forms.v1.EntryLib.ELListBoxItem elListBoxItem6 = new Klik.Windows.Forms.v1.EntryLib.ELListBoxItem();
             Klik.Windows.Forms.v1.EntryLib.ELListBoxSelectionStyles elListBoxSelectionStyles1 = new Klik.Windows.Forms.v1.EntryLib.ELListBoxSelectionStyles();
             Klik.Windows.Forms.v1.EntryLib.ELListBoxItem elListBoxItem1 = new Klik.Windows.Forms.v1.EntryLib.ELListBoxItem();
             Klik.Windows.Forms.v1.EntryLib.ELListBoxItem elListBoxItem2 = new Klik.Windows.Forms.v1.EntryLib.ELListBoxItem();
             Klik.Windows.Forms.v1.EntryLib.ELListBoxSelectionStyles elListBoxSelectionStyles2 = new Klik.Windows.Forms.v1.EntryLib.ELListBoxSelectionStyles();
-            Klik.Windows.Forms.v1.EntryLib.ELListBoxItem elListBoxItem3 = new Klik.Windows.Forms.v1.EntryLib.ELListBoxItem();
-            Klik.Windows.Forms.v1.EntryLib.ELListBoxItem elListBoxItem4 = new Klik.Windows.Forms.v1.EntryLib.ELListBoxItem();
             Klik.Windows.Forms.v1.EntryLib.ELListBoxSelectionStyles elListBoxSelectionStyles3 = new Klik.Windows.Forms.v1.EntryLib.ELListBoxSelectionStyles();
             Klik.Windows.Forms.v1.EntryLib.ELListBoxSelectionStyles elListBoxSelectionStyles4 = new Klik.Windows.Forms.v1.EntryLib.ELListBoxSelectionStyles();
             Klik.Windows.Forms.v1.EntryLib.ELListBoxSelectionStyles elListBoxSelectionStyles5 = new Klik.Windows.Forms.v1.EntryLib.ELListBoxSelectionStyles();
             Klik.Windows.Forms.v1.EntryLib.ELListBoxSelectionStyles elListBoxSelectionStyles6 = new Klik.Windows.Forms.v1.EntryLib.ELListBoxSelectionStyles();
             Klik.Windows.Forms.v1.EntryLib.ELListBoxSelectionStyles elListBoxSelectionStyles7 = new Klik.Windows.Forms.v1.EntryLib.ELListBoxSelectionStyles();
-            Klik.Windows.Forms.v1.EntryLib.ELListBoxSelectionStyles elListBoxSelectionStyles8 = new Klik.Windows.Forms.v1.EntryLib.ELListBoxSelectionStyles();
             this.elRichPanel2 = new Klik.Windows.Forms.v1.EntryLib.ELRichPanel();
             this.elButton5 = new Klik.Windows.Forms.v1.EntryLib.ELButton();
             this.elButton4 = new Klik.Windows.Forms.v1.EntryLib.ELButton();
@@ -264,19 +264,19 @@
             this.elEntryBox9.DropDownBackgroundStyle.PaintType = Klik.Windows.Forms.v1.Common.PaintTypes.Solid;
             this.elEntryBox9.DropDownBackgroundStyle.SolidColor = System.Drawing.SystemColors.Window;
             this.elEntryBox9.DropDownDescriptionFont = new System.Drawing.Font("Tahoma", 8.25F);
-            elListBoxSelectionStyles1.HotTrackStyle.BorderStyle.EdgeRadius = 4;
-            elListBoxSelectionStyles1.SelectedStyle.BorderStyle.EdgeRadius = 4;
-            this.elEntryBox9.DropDownItemSelectionStyle = elListBoxSelectionStyles1;
+            elListBoxSelectionStyles9.HotTrackStyle.BorderStyle.EdgeRadius = 4;
+            elListBoxSelectionStyles9.SelectedStyle.BorderStyle.EdgeRadius = 4;
+            this.elEntryBox9.DropDownItemSelectionStyle = elListBoxSelectionStyles9;
             this.elEntryBox9.DropDownShadowType = Klik.Windows.Forms.v1.Common.DropDownShadowTypes.Office2007;
             this.elEntryBox9.DropDownStyle = Klik.Windows.Forms.v1.EntryLib.DropDownStyles.DropDownList;
             this.elEntryBox9.EditBoxStyle.Cursor = System.Windows.Forms.Cursors.Hand;
             this.elEntryBox9.EditBoxStyle.Font = new System.Drawing.Font("Tahoma", 8.25F);
             this.elEntryBox9.EditBoxStyle.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            elListBoxItem1.Key = "0";
-            elListBoxItem1.Value = "بدون کارت پایان خدمت";
-            elListBoxItem2.Value = "دارای کارت پایان خدمت";
-            this.elEntryBox9.Items.Add(elListBoxItem1);
-            this.elEntryBox9.Items.Add(elListBoxItem2);
+            elListBoxItem5.Key = "0";
+            elListBoxItem5.Value = "بدون کارت پایان خدمت";
+            elListBoxItem6.Value = "دارای کارت پایان خدمت";
+            this.elEntryBox9.Items.Add(elListBoxItem5);
+            this.elEntryBox9.Items.Add(elListBoxItem6);
             this.elEntryBox9.Location = new System.Drawing.Point(17, 107);
             this.elEntryBox9.Name = "elEntryBox9";
             this.elEntryBox9.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
@@ -301,20 +301,20 @@
             this.elEntryBox8.DropDownBackgroundStyle.GradientAngle = 45F;
             this.elEntryBox8.DropDownBackgroundStyle.PaintType = Klik.Windows.Forms.v1.Common.PaintTypes.Solid;
             this.elEntryBox8.DropDownBackgroundStyle.SolidColor = System.Drawing.SystemColors.Window;
-            elListBoxSelectionStyles2.HotTrackStyle.BorderStyle.EdgeRadius = 4;
-            elListBoxSelectionStyles2.SelectedStyle.BorderStyle.EdgeRadius = 4;
-            this.elEntryBox8.DropDownItemSelectionStyle = elListBoxSelectionStyles2;
+            elListBoxSelectionStyles1.HotTrackStyle.BorderStyle.EdgeRadius = 4;
+            elListBoxSelectionStyles1.SelectedStyle.BorderStyle.EdgeRadius = 4;
+            this.elEntryBox8.DropDownItemSelectionStyle = elListBoxSelectionStyles1;
             this.elEntryBox8.DropDownShadowType = Klik.Windows.Forms.v1.Common.DropDownShadowTypes.Office2007;
             this.elEntryBox8.DropDownStyle = Klik.Windows.Forms.v1.EntryLib.DropDownStyles.DropDownList;
             this.elEntryBox8.EditBoxStyle.Cursor = System.Windows.Forms.Cursors.Hand;
             this.elEntryBox8.EditBoxStyle.Font = new System.Drawing.Font("Tahoma", 8.25F);
             this.elEntryBox8.EditBoxStyle.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            elListBoxItem3.Key = "0";
-            elListBoxItem3.Value = "مجرد";
-            elListBoxItem4.Key = "1";
-            elListBoxItem4.Value = "متاهل";
-            this.elEntryBox8.Items.Add(elListBoxItem3);
-            this.elEntryBox8.Items.Add(elListBoxItem4);
+            elListBoxItem1.Key = "0";
+            elListBoxItem1.Value = "مجرد";
+            elListBoxItem2.Key = "1";
+            elListBoxItem2.Value = "متاهل";
+            this.elEntryBox8.Items.Add(elListBoxItem1);
+            this.elEntryBox8.Items.Add(elListBoxItem2);
             this.elEntryBox8.Location = new System.Drawing.Point(199, 105);
             this.elEntryBox8.Name = "elEntryBox8";
             this.elEntryBox8.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
@@ -338,9 +338,9 @@
             this.elEntryBox12.DropDownBackgroundStyle.GradientAngle = 45F;
             this.elEntryBox12.DropDownBackgroundStyle.PaintType = Klik.Windows.Forms.v1.Common.PaintTypes.Solid;
             this.elEntryBox12.DropDownBackgroundStyle.SolidColor = System.Drawing.SystemColors.Window;
-            elListBoxSelectionStyles3.HotTrackStyle.BorderStyle.EdgeRadius = 4;
-            elListBoxSelectionStyles3.SelectedStyle.BorderStyle.EdgeRadius = 4;
-            this.elEntryBox12.DropDownItemSelectionStyle = elListBoxSelectionStyles3;
+            elListBoxSelectionStyles2.HotTrackStyle.BorderStyle.EdgeRadius = 4;
+            elListBoxSelectionStyles2.SelectedStyle.BorderStyle.EdgeRadius = 4;
+            this.elEntryBox12.DropDownItemSelectionStyle = elListBoxSelectionStyles2;
             this.elEntryBox12.DropDownShadowType = Klik.Windows.Forms.v1.Common.DropDownShadowTypes.Office2007;
             this.elEntryBox12.DropDownStyle = Klik.Windows.Forms.v1.EntryLib.DropDownStyles.DropDownList;
             this.elEntryBox12.EditBoxStyle.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -394,9 +394,9 @@
             this.elEntryBox11.DropDownBackgroundStyle.GradientAngle = 45F;
             this.elEntryBox11.DropDownBackgroundStyle.PaintType = Klik.Windows.Forms.v1.Common.PaintTypes.Solid;
             this.elEntryBox11.DropDownBackgroundStyle.SolidColor = System.Drawing.SystemColors.Window;
-            elListBoxSelectionStyles4.HotTrackStyle.BorderStyle.EdgeRadius = 4;
-            elListBoxSelectionStyles4.SelectedStyle.BorderStyle.EdgeRadius = 4;
-            this.elEntryBox11.DropDownItemSelectionStyle = elListBoxSelectionStyles4;
+            elListBoxSelectionStyles3.HotTrackStyle.BorderStyle.EdgeRadius = 4;
+            elListBoxSelectionStyles3.SelectedStyle.BorderStyle.EdgeRadius = 4;
+            this.elEntryBox11.DropDownItemSelectionStyle = elListBoxSelectionStyles3;
             this.elEntryBox11.DropDownShadowType = Klik.Windows.Forms.v1.Common.DropDownShadowTypes.Office2007;
             this.elEntryBox11.DropDownStyle = Klik.Windows.Forms.v1.EntryLib.DropDownStyles.DropDownList;
             this.elEntryBox11.EditBoxStyle.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -426,9 +426,9 @@
             this.elEntryBox10.DropDownBackgroundStyle.GradientAngle = 45F;
             this.elEntryBox10.DropDownBackgroundStyle.PaintType = Klik.Windows.Forms.v1.Common.PaintTypes.Solid;
             this.elEntryBox10.DropDownBackgroundStyle.SolidColor = System.Drawing.SystemColors.Window;
-            elListBoxSelectionStyles5.HotTrackStyle.BorderStyle.EdgeRadius = 4;
-            elListBoxSelectionStyles5.SelectedStyle.BorderStyle.EdgeRadius = 4;
-            this.elEntryBox10.DropDownItemSelectionStyle = elListBoxSelectionStyles5;
+            elListBoxSelectionStyles4.HotTrackStyle.BorderStyle.EdgeRadius = 4;
+            elListBoxSelectionStyles4.SelectedStyle.BorderStyle.EdgeRadius = 4;
+            this.elEntryBox10.DropDownItemSelectionStyle = elListBoxSelectionStyles4;
             this.elEntryBox10.DropDownShadowType = Klik.Windows.Forms.v1.Common.DropDownShadowTypes.Office2007;
             this.elEntryBox10.DropDownStyle = Klik.Windows.Forms.v1.EntryLib.DropDownStyles.DropDownList;
             this.elEntryBox10.EditBoxStyle.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -456,9 +456,9 @@
             this.elEntryBox14.DropDownBackgroundStyle.GradientAngle = 45F;
             this.elEntryBox14.DropDownBackgroundStyle.PaintType = Klik.Windows.Forms.v1.Common.PaintTypes.Solid;
             this.elEntryBox14.DropDownBackgroundStyle.SolidColor = System.Drawing.SystemColors.Window;
-            elListBoxSelectionStyles6.HotTrackStyle.BorderStyle.EdgeRadius = 4;
-            elListBoxSelectionStyles6.SelectedStyle.BorderStyle.EdgeRadius = 4;
-            this.elEntryBox14.DropDownItemSelectionStyle = elListBoxSelectionStyles6;
+            elListBoxSelectionStyles5.HotTrackStyle.BorderStyle.EdgeRadius = 4;
+            elListBoxSelectionStyles5.SelectedStyle.BorderStyle.EdgeRadius = 4;
+            this.elEntryBox14.DropDownItemSelectionStyle = elListBoxSelectionStyles5;
             this.elEntryBox14.DropDownShadowType = Klik.Windows.Forms.v1.Common.DropDownShadowTypes.Office2007;
             this.elEntryBox14.DropDownStyle = Klik.Windows.Forms.v1.EntryLib.DropDownStyles.DropDownList;
             this.elEntryBox14.EditBoxStyle.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -487,9 +487,9 @@
             this.elEntryBox13.DropDownBackgroundStyle.GradientAngle = 45F;
             this.elEntryBox13.DropDownBackgroundStyle.PaintType = Klik.Windows.Forms.v1.Common.PaintTypes.Solid;
             this.elEntryBox13.DropDownBackgroundStyle.SolidColor = System.Drawing.SystemColors.Window;
-            elListBoxSelectionStyles7.HotTrackStyle.BorderStyle.EdgeRadius = 4;
-            elListBoxSelectionStyles7.SelectedStyle.BorderStyle.EdgeRadius = 4;
-            this.elEntryBox13.DropDownItemSelectionStyle = elListBoxSelectionStyles7;
+            elListBoxSelectionStyles6.HotTrackStyle.BorderStyle.EdgeRadius = 4;
+            elListBoxSelectionStyles6.SelectedStyle.BorderStyle.EdgeRadius = 4;
+            this.elEntryBox13.DropDownItemSelectionStyle = elListBoxSelectionStyles6;
             this.elEntryBox13.DropDownShadowType = Klik.Windows.Forms.v1.Common.DropDownShadowTypes.Office2007;
             this.elEntryBox13.DropDownStyle = Klik.Windows.Forms.v1.EntryLib.DropDownStyles.DropDownList;
             this.elEntryBox13.EditBoxStyle.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -528,6 +528,7 @@
             this.elButton3.TextStyle.Font = new System.Drawing.Font("Tahoma", 9F);
             this.elButton3.TextStyle.Text = "بازگشت";
             this.elButton3.TextStyle.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.elButton3.Click += new System.EventHandler(this.elButton3_Click);
             // 
             // elButton1
             // 
@@ -557,6 +558,7 @@
             this.elButton2.TextStyle.Font = new System.Drawing.Font("Tahoma", 9F);
             this.elButton2.TextStyle.Text = "خالی کردن فرم";
             this.elButton2.TextStyle.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.elButton2.Click += new System.EventHandler(this.elButton2_Click);
             // 
             // elCheckBox1
             // 
@@ -946,9 +948,9 @@
             this.elEntryBox23.DropDownBackgroundStyle.GradientAngle = 45F;
             this.elEntryBox23.DropDownBackgroundStyle.PaintType = Klik.Windows.Forms.v1.Common.PaintTypes.Solid;
             this.elEntryBox23.DropDownBackgroundStyle.SolidColor = System.Drawing.SystemColors.Window;
-            elListBoxSelectionStyles8.HotTrackStyle.BorderStyle.EdgeRadius = 4;
-            elListBoxSelectionStyles8.SelectedStyle.BorderStyle.EdgeRadius = 4;
-            this.elEntryBox23.DropDownItemSelectionStyle = elListBoxSelectionStyles8;
+            elListBoxSelectionStyles7.HotTrackStyle.BorderStyle.EdgeRadius = 4;
+            elListBoxSelectionStyles7.SelectedStyle.BorderStyle.EdgeRadius = 4;
+            this.elEntryBox23.DropDownItemSelectionStyle = elListBoxSelectionStyles7;
             this.elEntryBox23.DropDownShadowType = Klik.Windows.Forms.v1.Common.DropDownShadowTypes.Office2007;
             this.elEntryBox23.DropDownStyle = Klik.Windows.Forms.v1.EntryLib.DropDownStyles.DropDownList;
             this.elEntryBox23.EditBoxStyle.Cursor = System.Windows.Forms.Cursors.Hand;

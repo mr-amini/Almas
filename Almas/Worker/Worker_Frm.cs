@@ -99,5 +99,33 @@ namespace Almas.Worker
             elEntryBox14.SelectedIndex= 0;
         }
 
+        private void elButton2_Click(object sender, EventArgs e)
+        {
+            foreach (Control item in elRichPanel1.Controls)
+            {
+                if (item is ELEntryBox)
+                {
+                    (item as ELEntryBox).Value = "";
+                }
+                else if (item is ELComboBox)
+                {
+                    (item as ELComboBox).SelectedIndex = -1;
+                }
+            }
+            foreach (ELListBoxItem item in elEntryBox23.Items)
+            {
+                item.CheckState = CheckState.Unchecked;
+            }
+            pictureBox1.BackgroundImage = Almas.Properties.Resources.user;
+            elRadioButton1.Checked = false;
+            elRadioButton2.Checked = false;
+            elCheckBox2.Checked = false;
+        }
+
+        private void elButton3_Click(object sender, EventArgs e)
+        {
+
+        }
+
     }
 }

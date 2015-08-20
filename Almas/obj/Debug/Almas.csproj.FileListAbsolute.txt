@@ -68,3 +68,17 @@ C:\Almas\Almas\obj\Debug\Almas.time_picker.resources
 C:\Almas\Almas\obj\Debug\Almas.csproj.GenerateResource.Cache
 C:\Almas\Almas\obj\Debug\Almas.exe.licenses
 C:\Almas\Almas\obj\Debug\Almas.Worker.Worker_Frm.resources
+C:\Users\Mr.Amini\Documents\GitHub\Almas\Almas\bin\Debug\Almas.exe.config
+C:\Users\Mr.Amini\Documents\GitHub\Almas\Almas\obj\Debug\Almas.exe
+C:\Users\Mr.Amini\Documents\GitHub\Almas\Almas\obj\Debug\Almas.pdb
+C:\Users\Mr.Amini\Documents\GitHub\Almas\Almas\bin\Debug\Almas.exe
+C:\Users\Mr.Amini\Documents\GitHub\Almas\Almas\bin\Debug\Almas.pdb
+C:\Users\Mr.Amini\Documents\GitHub\Almas\Almas\obj\Debug\Almas.csprojResolveAssemblyReference.cache
+C:\Users\Mr.Amini\Documents\GitHub\Almas\Almas\obj\Debug\Almas.Clerk.resources
+C:\Users\Mr.Amini\Documents\GitHub\Almas\Almas\obj\Debug\Almas.Clerk_Show.resources
+C:\Users\Mr.Amini\Documents\GitHub\Almas\Almas\obj\Debug\Almas.extramessage_frm.resources
+C:\Users\Mr.Amini\Documents\GitHub\Almas\Almas\obj\Debug\Almas.Properties.Resources.resources
+C:\Users\Mr.Amini\Documents\GitHub\Almas\Almas\obj\Debug\Almas.time_picker.resources
+C:\Users\Mr.Amini\Documents\GitHub\Almas\Almas\obj\Debug\Almas.Worker.Worker_Frm.resources
+C:\Users\Mr.Amini\Documents\GitHub\Almas\Almas\obj\Debug\Almas.csproj.GenerateResource.Cache
+C:\Users\Mr.Amini\Documents\GitHub\Almas\Almas\obj\Debug\Almas.exe.licenses
