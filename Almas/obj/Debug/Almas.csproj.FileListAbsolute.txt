@@ -1,0 +1,70 @@
+C:\Users\Mr.Amini\Documents\Visual Studio 2012\Projects\Almas\Almas\bin\Debug\Almas.exe
+C:\Users\Mr.Amini\Documents\Visual Studio 2012\Projects\Almas\Almas\bin\Debug\Almas.pdb
+C:\Users\Mr.Amini\Documents\Visual Studio 2012\Projects\Almas\Almas\obj\Debug\Almas.Properties.Resources.resources
+C:\Users\Mr.Amini\Documents\Visual Studio 2012\Projects\Almas\Almas\obj\Debug\Almas.csproj.GenerateResource.Cache
+C:\Users\Mr.Amini\Documents\Visual Studio 2012\Projects\Almas\Almas\obj\Debug\Almas.exe
+C:\Users\Mr.Amini\Documents\Visual Studio 2012\Projects\Almas\Almas\obj\Debug\Almas.pdb
+C:\Users\Mr.Amini\Documents\Visual Studio 2012\Projects\Almas\Almas\obj\Debug\Almas.login.resources
+C:\Users\Mr.Amini\Documents\Visual Studio 2012\Projects\Almas\Almas\obj\Debug\Almas.clerk.resources
+C:\Users\Mr.Amini\Documents\Visual Studio 2012\Projects\Almas\Almas\obj\Debug\Almas.edit_clerk.resources
+C:\Users\Mr.Amini\Documents\Visual Studio 2012\Projects\Almas\Almas\obj\Debug\Almas.worker.resources
+C:\Users\Mr.Amini\Documents\Visual Studio 2012\Projects\Almas\Almas\obj\Debug\Almas.edit_worker.resources
+C:\Users\Mr.Amini\Documents\Visual Studio 2012\Projects\Almas\Almas\obj\Debug\Almas.entry_worker.resources
+C:\Users\Mr.Amini\Documents\Visual Studio 2012\Projects\Almas\Almas\obj\Debug\Almas.edit_entry.resources
+C:\Users\Mr.Amini\Documents\Visual Studio 2012\Projects\Almas\Almas\obj\Debug\Almas.Help_worker.resources
+C:\Users\Mr.Amini\Documents\Visual Studio 2012\Projects\Almas\Almas\obj\Debug\Almas.Edit_help_worker.resources
+C:\Users\Mr.Amini\Documents\Visual Studio 2012\Projects\Almas\Almas\obj\Debug\Almas.Wages.resources
+C:\Users\Mr.Amini\Documents\Visual Studio 2012\Projects\Almas\Almas\obj\Debug\Almas.edit_wages.resources
+C:\Users\Mr.Amini\Documents\Visual Studio 2012\Projects\Almas\Almas\obj\Debug\Almas.leave.resources
+C:\Users\Mr.Amini\Documents\Visual Studio 2012\Projects\Almas\Almas\obj\Debug\Almas.edit_leave.resources
+C:\Users\Mr.Amini\Documents\Visual Studio 2012\Projects\Almas\Almas\obj\Debug\Almas.customer.resources
+C:\Users\Mr.Amini\Documents\Visual Studio 2012\Projects\Almas\Almas\obj\Debug\Almas.edit_customer.resources
+C:\Users\Mr.Amini\Documents\Visual Studio 2012\Projects\Almas\Almas\obj\Debug\Almas.Goods.resources
+C:\Users\Mr.Amini\Documents\Visual Studio 2012\Projects\Almas\Almas\obj\Debug\Almas.edit_goods.resources
+C:\Users\Mr.Amini\Documents\Visual Studio 2012\Projects\Almas\Almas\obj\Debug\Almas.MDF.resources
+C:\Users\Mr.Amini\Documents\Visual Studio 2012\Projects\Almas\Almas\obj\Debug\Almas.print_worker.resources
+C:\Users\Mr.Amini\Documents\Visual Studio 2012\Projects\Almas\Almas\obj\Debug\Almas.edit_MDF.resources
+C:\Users\Mr.Amini\Documents\Visual Studio 2012\Projects\Almas\Almas\obj\Debug\Almas.Pvc.resources
+C:\Users\Mr.Amini\Documents\Visual Studio 2012\Projects\Almas\Almas\obj\Debug\Almas.edit_PVC.resources
+C:\Users\Mr.Amini\Documents\Visual Studio 2012\Projects\Almas\Almas\obj\Debug\Almas.Order.resources
+C:\Users\Mr.Amini\Documents\Visual Studio 2012\Projects\Almas\Almas\obj\Debug\Almas.size_table.resources
+C:\Users\Mr.Amini\Documents\Visual Studio 2012\Projects\Almas\Almas\obj\Debug\Almas.Sell_MDF.resources
+C:\Users\Mr.Amini\Documents\Visual Studio 2012\Projects\Almas\Almas\obj\Debug\Almas.edit_sell_mdf.resources
+C:\Users\Mr.Amini\Documents\Visual Studio 2012\Projects\Almas\Almas\obj\Debug\Almas.edit_order.resources
+C:\Users\Mr.Amini\Documents\Visual Studio 2012\Projects\Almas\Almas\obj\Debug\Almas.salary.resources
+C:\Users\Mr.Amini\Documents\Visual Studio 2012\Projects\Almas\Almas\obj\Debug\Almas.edit_salary.resources
+C:\Users\Mr.Amini\Documents\Visual Studio 2012\Projects\Almas\Almas\obj\Debug\Almas.manage.resources
+C:\Users\Mr.Amini\Documents\Visual Studio 2012\Projects\Almas\Almas\obj\Debug\Almas.warning_notification.resources
+C:\Users\Mr.Amini\Documents\Visual Studio 2012\Projects\Almas\Almas\obj\Debug\Almas.war_notification.resources
+C:\Users\Mr.Amini\Documents\Visual Studio 2012\Projects\Almas\Almas\obj\Debug\Almas.appearance_settings.resources
+C:\Users\Mr.Amini\Documents\Visual Studio 2012\Projects\Almas\Almas\obj\Debug\Almas.users_settings.resources
+C:\Users\Mr.Amini\Desktop\Almas\Almas\obj\Debug\Almas.exe
+C:\Users\Mr.Amini\Desktop\Almas\Almas\obj\Debug\Almas.pdb
+C:\Users\Mr.Amini\Desktop\Almas\Almas\obj\Debug\Almas.clerk.resources
+C:\Users\Mr.Amini\Desktop\Almas\Almas\obj\Debug\Almas.Properties.Resources.resources
+C:\Users\Mr.Amini\Desktop\Almas\Almas\obj\Debug\Almas.csproj.GenerateResource.Cache
+C:\Users\Mr.Amini\Desktop\Almas\Almas\bin\Debug\Almas.exe
+C:\Users\Mr.Amini\Desktop\Almas\Almas\bin\Debug\Almas.pdb
+C:\Users\Mr.Amini\Desktop\Almas\Almas\obj\Debug\Almas.exe.licenses
+C:\Users\Mr.Amini\Documents\Visual Studio 2012\Projects\Almas\Almas\obj\Debug\Almas.exe.licenses
+C:\Users\Mr.Amini\Documents\Visual Studio 2012\Projects\Almas\Almas\obj\Debug\Almas.time_picker.resources
+C:\Users\Mr.Amini\Documents\Visual Studio 2012\Projects\Almas\Almas\bin\Debug\Almas.exe.config
+C:\Users\Mr.Amini\Documents\Visual Studio 2012\Projects\Almas\Almas\obj\Debug\Almas.extramessage_frm.resources
+C:\Users\Mr.Amini\Desktop\Almas\Almas\bin\Debug\Almas.exe.config
+C:\Users\Mr.Amini\Desktop\Almas\Almas\obj\Debug\Almas.extramessage_frm.resources
+C:\Users\Mr.Amini\Desktop\Almas\Almas\obj\Debug\Almas.time_picker.resources
+C:\Users\Mr.Amini\Desktop\Almas\Almas\obj\Debug\Almas.Clerk_Show.resources
+C:\Almas\Almas\bin\Debug\Almas.exe.config
+C:\Almas\Almas\obj\Debug\Almas.exe
+C:\Almas\Almas\obj\Debug\Almas.pdb
+C:\Almas\Almas\bin\Debug\Almas.exe
+C:\Almas\Almas\bin\Debug\Almas.pdb
+C:\Almas\Almas\obj\Debug\Almas.csprojResolveAssemblyReference.cache
+C:\Almas\Almas\obj\Debug\Almas.Clerk.resources
+C:\Almas\Almas\obj\Debug\Almas.Clerk_Show.resources
+C:\Almas\Almas\obj\Debug\Almas.extramessage_frm.resources
+C:\Almas\Almas\obj\Debug\Almas.Properties.Resources.resources
+C:\Almas\Almas\obj\Debug\Almas.time_picker.resources
+C:\Almas\Almas\obj\Debug\Almas.csproj.GenerateResource.Cache
+C:\Almas\Almas\obj\Debug\Almas.exe.licenses
+C:\Almas\Almas\obj\Debug\Almas.Worker.Worker_Frm.resources
