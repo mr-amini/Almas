@@ -170,7 +170,7 @@ namespace Almas
         private void elEntryBox11_SelectedIndexChanged(object sender, EventArgs e)
         {
             elEntryBox12.Items.Clear();
-            foreach (DataRow item in _PublicClass.Religion_sec((elEntryBox11.SelectedIndex + 1)).Rows)
+            foreach (DataRow item in _PublicClass.Religion_sec(((int)elEntryBox11.SelectedKey)).Rows)
             {
                 ELListBoxItem NewItem = new ELListBoxItem();
                 NewItem.Key = item[0];
@@ -257,7 +257,7 @@ namespace Almas
             {
                 if (extramessage_frm.Show("آیا مایل به ثبت اطلاعات این منشی هستید ؟ ", MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == System.Windows.Forms.DialogResult.Yes)
                 {
-                    byte sex = (elRadioButton1.Checked == true) ? (byte)0 : (byte)1;
+                    string sex = (elRadioButton1.Checked == true) ? "زن" : "مرد";
                     byte insurance = (elCheckBox1.Checked == true) ? (byte)1 : (byte)0;
                     //search checked item in elentrybox23 and save item.key in new string
                     string disease = _PublicClass.Fetch_Checked_Item(elEntryBox23.CheckedItems);

@@ -143,6 +143,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\UserInfo.png" />
     <None Include="Resources\down.png" />
     <None Include="Resources\up.png" />
     <None Include="Resources\warning.png" />

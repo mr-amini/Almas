@@ -1168,7 +1168,7 @@
             this.BackColor = System.Drawing.Color.WhiteSmoke;
             this.BackgroundImage = global::Almas.Properties.Resources.BG2;
             this.CancelButton = this.elButton3;
-            this.ClientSize = new System.Drawing.Size(934, 469);
+            this.ClientSize = new System.Drawing.Size(932, 469);
             this.Controls.Add(this.elListBox1);
             this.Controls.Add(this.elRichPanel3);
             this.Controls.Add(this.time_picker1);

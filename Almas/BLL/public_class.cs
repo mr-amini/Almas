@@ -95,13 +95,13 @@ namespace Almas.BLL
 
         public string Fetch_Checked_Item(ELListBoxItemCollection obj)
         {
-            string disease = "";
+            string disease = ",";
             foreach (ELListBoxItem item in obj)
             {
-                disease += item.Key + ",";
+                disease += item.Key + ",,";
             }
-            if (disease.Length > 0) { disease = disease.Remove(disease.Length - 1); }
             return disease;
         }
+
     }
 }
