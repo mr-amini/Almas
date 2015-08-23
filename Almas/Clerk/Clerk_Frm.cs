@@ -169,15 +169,19 @@ namespace Almas
         //when user choose a religion_pri this Function fill religion sub data in religion_sec combobox
         private void elEntryBox11_SelectedIndexChanged(object sender, EventArgs e)
         {
-            elEntryBox12.Items.Clear();
-            foreach (DataRow item in _PublicClass.Religion_sec(((int)elEntryBox11.SelectedKey)).Rows)
+            
+            if (elEntryBox11.SelectedKey != null)
             {
-                ELListBoxItem NewItem = new ELListBoxItem();
-                NewItem.Key = item[0];
-                NewItem.Value = item[1];
-                elEntryBox12.Items.Add(NewItem);
+                elEntryBox12.Items.Clear();
+                foreach (DataRow item in _PublicClass.Religion_sec(((int)elEntryBox11.SelectedKey)).Rows)
+                {
+                    ELListBoxItem NewItem = new ELListBoxItem();
+                    NewItem.Key = item[0];
+                    NewItem.Value = item[1];
+                    elEntryBox12.Items.Add(NewItem);
+                }
+                elEntryBox12.SelectedIndex = 0;
             }
-            elEntryBox12.SelectedIndex = 0;
         }
         //when user choose a united this Function fill city sub data in city combobox
         private void elEntryBox13_SelectedIndexChanged(object sender, EventArgs e)
@@ -214,7 +218,7 @@ namespace Almas
             {
                 item.CheckState = CheckState.Unchecked;
             }
-            pictureBox1.BackgroundImage = Almas.Properties.Resources.user;
+            pictureBox1.Image =   Almas.Properties.Resources.user;
             elRadioButton1.Checked = false;
             elRadioButton2.Checked = false;
         }
@@ -257,7 +261,7 @@ namespace Almas
             {
                 if (extramessage_frm.Show("آیا مایل به ثبت اطلاعات این منشی هستید ؟ ", MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == System.Windows.Forms.DialogResult.Yes)
                 {
-                    string sex = (elRadioButton1.Checked == true) ? "زن" : "مرد";
+                    byte sex = (elRadioButton1.Checked == true) ? (byte)0 : (byte)1;
                     byte insurance = (elCheckBox1.Checked == true) ? (byte)1 : (byte)0;
                     //search checked item in elentrybox23 and save item.key in new string
                     string disease = _PublicClass.Fetch_Checked_Item(elEntryBox23.CheckedItems);
@@ -265,11 +269,11 @@ namespace Almas
                     BLL.cleark crk = new BLL.cleark();
                     if (crk.Insert((string)elEntryBox1.Value, (string)elEntryBox2.Value, (string)elEntryBox3.Value,
                         (string)elEntryBox4.Value, (string)elEntryBox5.Value, (string)elEntryBox6.Value, sex,
-                        (string)elEntryBox7.Value, elEntryBox8.SelectedKey.ToString(), elEntryBox9.SelectedKey.ToString(),
-                        elEntryBox10.SelectedKey.ToString(), elEntryBox11.SelectedKey.ToString(), elEntryBox12.SelectedKey.ToString(),
-                        elEntryBox13.SelectedKey.ToString(), elEntryBox14.SelectedKey.ToString(), (string)elEntryBox15.Value,
+                        (string)elEntryBox7.Value, byte.Parse(elEntryBox8.SelectedKey.ToString()), byte.Parse(elEntryBox9.SelectedKey.ToString()),
+                        int.Parse(elEntryBox10.SelectedKey.ToString()), int.Parse(elEntryBox11.SelectedKey.ToString()), int.Parse(elEntryBox12.SelectedKey.ToString()),
+                        int.Parse(elEntryBox13.SelectedKey.ToString()), int.Parse(elEntryBox14.SelectedKey.ToString()), (string)elEntryBox15.Value,
                         (string)elEntryBox16.Value, (string)elEntryBox17.Value, (string)elEntryBox18.Value,
-                        (string)elEntryBox19.Value, (string)elEntryBox20.Value, insurance, (string)elEntryBox21.Value, (string)elEntryBox22.Value, disease))
+                        int.Parse(elEntryBox19.Value.ToString()), (string)elEntryBox20.Value, insurance, (string)elEntryBox21.Value, (string)elEntryBox22.Value, disease))
                     {
                         //save user image into db [ image table ]
                         BLL.picture _Pic = new BLL.picture();

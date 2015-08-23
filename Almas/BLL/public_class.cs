@@ -48,7 +48,11 @@ namespace Almas.BLL
             clerk_code = clerk_code == "" ? "0" : clerk_code;
             worker_code = worker_code == "" ? "0" : worker_code;
 
-            if (int.Parse(worker_code) >= int.Parse(clerk_code))
+            if (int.Parse(worker_code) == 0 && int.Parse(clerk_code) == 0)
+            {
+                return (100001).ToString();
+            }
+            else if (int.Parse(worker_code) > int.Parse(clerk_code))
             {
                 return (int.Parse(worker_code) + 1).ToString();
             }

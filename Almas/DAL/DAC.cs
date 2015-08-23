@@ -32,11 +32,11 @@ namespace Almas.DAL
             {
                 if (res == "1")
                 {
-                    extramessage_frm.Show("عملیات ثبت اطلاعات با موفقیت انجام شد", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    extramessage_frm.Show("عملیات مورد نظر با موفقیت انجام شد", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
                 else
                 {
-                    extramessage_frm.Show("عملیات ثبت اطلاعات با مشکل روبه رو شد ", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    extramessage_frm.Show("عملیات مورد نظر با مشکل روبه رو شد ", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
             return res;

@@ -537,9 +537,9 @@
             this.elCheckBox1.FlashStyle.PaintType = Klik.Windows.Forms.v1.Common.PaintTypes.Solid;
             this.elCheckBox1.FlashStyle.SolidColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(240)))), ((int)(((byte)(191)))));
             this.elCheckBox1.ForegroundImageStyle.FadeStart = 20;
-            this.elCheckBox1.Location = new System.Drawing.Point(385, 329);
+            this.elCheckBox1.Location = new System.Drawing.Point(385, 328);
             this.elCheckBox1.Name = "elCheckBox1";
-            this.elCheckBox1.Size = new System.Drawing.Size(177, 23);
+            this.elCheckBox1.Size = new System.Drawing.Size(177, 26);
             this.elCheckBox1.TabIndex = 21;
             this.elCheckBox1.TextStyle.Font = new System.Drawing.Font("Tahoma", 8.25F);
             this.elCheckBox1.TextStyle.Text = "بیمه";
@@ -925,7 +925,6 @@
             this.elEntryBox3.CaptionStyle.FlashStyle.SolidColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(240)))), ((int)(((byte)(191)))));
             this.elEntryBox3.CaptionStyle.TextStyle.Font = new System.Drawing.Font("Tahoma", 8.25F);
             this.elEntryBox3.CaptionStyle.TextStyle.Text = " نام خانوادگی";
-            this.elEntryBox3.CaptionStyle.TextStyle.TextAlign = System.Drawing.ContentAlignment.TopLeft;
             this.elEntryBox3.EditBoxStyle.Font = new System.Drawing.Font("Tahoma", 8.25F);
             this.elEntryBox3.Location = new System.Drawing.Point(17, 42);
             this.elEntryBox3.Name = "elEntryBox3";

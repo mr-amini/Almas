@@ -87,7 +87,6 @@ C:\Github\Almas\Almas\obj\Debug\Almas.exe
 C:\Github\Almas\Almas\obj\Debug\Almas.pdb
 C:\Github\Almas\Almas\bin\Debug\Almas.exe
 C:\Github\Almas\Almas\bin\Debug\Almas.pdb
-C:\Github\Almas\Almas\obj\Debug\Almas.csprojResolveAssemblyReference.cache
 C:\Github\Almas\Almas\obj\Debug\Almas.Clerk.resources
 C:\Github\Almas\Almas\obj\Debug\Almas.Clerk_Show.resources
 C:\Github\Almas\Almas\obj\Debug\Almas.extramessage_frm.resources
@@ -96,3 +95,4 @@ C:\Github\Almas\Almas\obj\Debug\Almas.time_picker.resources
 C:\Github\Almas\Almas\obj\Debug\Almas.Worker.Worker_Frm.resources
 C:\Github\Almas\Almas\obj\Debug\Almas.csproj.GenerateResource.Cache
 C:\Github\Almas\Almas\obj\Debug\Almas.exe.licenses
+C:\Github\Almas\Almas\obj\Debug\Almas.csprojResolveAssemblyReference.cache

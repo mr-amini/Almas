@@ -48,6 +48,7 @@ namespace Almas
 
 
             // add information of education on combobox 
+            education_combo.Items.Add("");
             foreach (DataRow item in _PublicClass.EducationCombobox().Rows)
             {
                 ELListBoxItem ExItem = new ELListBoxItem();
@@ -56,6 +57,7 @@ namespace Almas
                 education_combo.Items.Add(ExItem);
             }
             // add information of religion on combobox 
+            religion_pri_combo.Items.Add("");
             foreach (DataRow item in _PublicClass.Religion_pri().Rows)
             {
                 ELListBoxItem ExItem = new ELListBoxItem();
@@ -64,6 +66,7 @@ namespace Almas
                 religion_pri_combo.Items.Add(ExItem);
             }
             // add information of uniteds on combobox 
+            united_combo.Items.Add("");
             foreach (DataRow item in _PublicClass.United().Rows)
             {
                 ELListBoxItem ExItem = new ELListBoxItem();
@@ -104,6 +107,20 @@ namespace Almas
             name_txt.ValidationStyle = _PublicClass.Mask_Format_String();
             family_txt.ValidationStyle = _PublicClass.Mask_Format_String();
             father_txt.ValidationStyle = _PublicClass.Mask_Format_String();
+            salary_txt.ValidationStyle = _PublicClass.Mask_Format_ReadOnly();
+            overtime_txt.ValidationStyle = _PublicClass.Mask_Format_ReadOnly();
+
+            //set readonly mask for all enterybox in richbox7 because they are just for show info
+            elRadioButton2.Enabled = false;
+            elRadioButton3.Enabled = false;
+            elCheckBox1.Enabled = false;
+            foreach (Control item in elRichPanel7.Controls)
+            {
+                if (item is ELEntryBox)
+                {
+                    (item as ELEntryBox).ValidationStyle = _PublicClass.Mask_Format_ReadOnly();
+                }
+            }
         }
 
         private void OnButtonsClicked(object sender, EventArgs e)
@@ -111,14 +128,69 @@ namespace Almas
             (which_Button as ELEntryBox).Value = time_picker1.GetTime();
         }
 
+
+        //when user click on first column then show all of clerk information
         private void DataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
         {
-            //when user click on first column then show all of clerk information
-            if (e.ColumnIndex == 0)
+            if (e.ColumnIndex == 0 && DataGridView1.Rows.Count >0)
             {
-                MessageBox.Show("");
+                DataTable dt = _DA.Do_Table(_DA.Do_Sql_Adapter("SELECT * FROM clerk WHERE code=" + DataGridView1.Rows[e.RowIndex].Cells[1].Value.ToString().Trim()));
+                foreach (Control item in elRichPanel7.Controls)
+                {
+                    if (item is ELEntryBox)
+                    {
+                        if ((item as ELEntryBox).Tag.ToString() != "")
+                        {
+                            (item as ELEntryBox).Value = dt.Rows[0][(item as ELEntryBox).Tag.ToString()].ToString().Trim();
+                        }
+                    }
+                }
+                elEntryBox21.Value = elEntryBox21.Value.ToString().Remove(elEntryBox21.Value.ToString().Length - 3, 3);
+                elEntryBox22.Value = elEntryBox22.Value.ToString().Remove(elEntryBox22.Value.ToString().Length - 3, 3);
+                BLL.picture pic = new BLL.picture();
+                pictureBox1.Image = pic.GettingPicture(elEntryBox1.Value.ToString());
+                if (pictureBox1.Image == null) { pictureBox1.Image = Almas.Properties.Resources.user; }
+
+                elRadioButton2.Checked = bool.Parse(dt.Rows[0]["sex"].ToString()) == false ? true : false;
+                elRadioButton3.Checked = bool.Parse(dt.Rows[0]["sex"].ToString()) == true ? true : false;
+                elCheckBox1.Checked = bool.Parse(dt.Rows[0]["insurance"].ToString());
+                elEntryBox8.Value = (dt.Rows[0]["relation"].ToString() == "True") ? "متاهل" : "مجرد";
+                elEntryBox9.Value = (dt.Rows[0]["military"].ToString() == "True") ? "دارای کارت پایان خدمت" : "بدون کارت پایان خدمت";
+                elEntryBox7.Value = DateTime.Parse(dt.Rows[0]["birth_date"].ToString()).ToShortDateString();
+                elEntryBox10.Value = _DA.Do_Table(_DA.Do_Sql_Adapter("Select name from education where ID =" + dt.Rows[0]["education"].ToString().Trim())).Rows[0]["name"].ToString();
+                elEntryBox11.Value = _DA.Do_Table(_DA.Do_Sql_Adapter("Select name from religion_pri where ID =" + dt.Rows[0]["religion_pri"].ToString().Trim())).Rows[0]["name"].ToString();
+                elEntryBox12.Value = _DA.Do_Table(_DA.Do_Sql_Adapter("Select name from religion_sec where ID =" + dt.Rows[0]["religion_sec"].ToString().Trim())).Rows[0]["name"].ToString();
+                elEntryBox13.Value = _DA.Do_Table(_DA.Do_Sql_Adapter("Select name from united where ID =" + dt.Rows[0]["united"].ToString().Trim())).Rows[0]["name"].ToString();
+                elEntryBox14.Value = _DA.Do_Table(_DA.Do_Sql_Adapter("Select name from city where ID =" + dt.Rows[0]["city"].ToString().Trim())).Rows[0]["name"].ToString();
+                string illnessFromDB = dt.Rows[0]["illness"].ToString().Remove(0,1);
+                int[] illness_num = new int[(illnessFromDB.Length / 3)];
+
+                for (int i = 0; illnessFromDB.Length > 1; i++)
+                {
+                    illness_num[i] = int.Parse(illnessFromDB.Substring(0, illnessFromDB.IndexOf(",,")).ToString()) ;
+                    illnessFromDB = illnessFromDB.Remove(0, illnessFromDB.IndexOf(",,") + 2);
+                }
+
+                elEntryBox23.Items.Clear();
+                foreach (DataRow item in _PublicClass.Illness().Rows)
+                {
+                    ELListBoxItem ExItem = new ELListBoxItem();
+                    ExItem.Key = item[0];
+                    ExItem.Value = item[1];
+                    foreach (int item_key in illness_num)
+                    {
+                        if (item_key == int.Parse(item[0].ToString()))
+                        {
+                            ExItem.CheckState = CheckState.Checked;
+                        }
+                    }
+                    elEntryBox23.Items.Add(ExItem);
+                }
+
+                Modal1.Show(this, elRichPanel7);
             }
         }
+
 
         private void elButton3_Click(object sender, EventArgs e)
         {
@@ -147,22 +219,37 @@ namespace Almas
             Modal2.Show(elRichPanel2, elRichPanel6);
         }
 
+        public void Empty_EntryBox_In_Small_RichPanel(object RichPanel_Sender)
+        {
+                foreach (Control item in (RichPanel_Sender as ELRichPanel).Controls)
+                {
+                    if (item is ELEntryBox)
+                    {
+                        (item as ELEntryBox).Value = "";
+                    }
+                    else if (item is ELRadioButton)
+                    {
+                        (item as ELRadioButton).Checked = false;
+                        if ((item as ELRadioButton).Text == "مساوی با") { (item as ELRadioButton).Checked = true; }
+                    }
+                }
+        }
 
         /// when user enter value and press 'emaal taghyirat' on small Richpanel this function run and check value and send to main Richpanel
         public void Small_RichPanel_Send_Data(object radio_1, object radio_2, object radio_3, object radio_4, object txt_1, object txt_2, object txt_3, object txt_4, object txt_5, object txt)
         {
-            bool check_right_value = false;
+            bool check_right_value = false, error_show_modal = true;
             if ((radio_1 as ELRadioButton).Checked == true && (txt_1 as ELEntryBox).Value.ToString().Trim() != "")
             {
-                (txt as ELEntryBox).Value = (txt_1 as ELEntryBox).Value; check_right_value = true;
+                (txt as ELEntryBox).Value = (txt_1 as ELEntryBox).Value;
             }
             else if ((radio_2 as ELRadioButton).Checked == true && (txt_2 as ELEntryBox).Value.ToString().Trim() != "")
             {
-                (txt as ELEntryBox).Value = (txt_2 as ELEntryBox).Value; check_right_value = true;
+                (txt as ELEntryBox).Value = (txt_2 as ELEntryBox).Value; 
             }
             else if ((radio_3 as ELRadioButton).Checked == true && (txt_3 as ELEntryBox).Value.ToString().Trim() != "")
             {
-                (txt as ELEntryBox).Value = (txt_3 as ELEntryBox).Value; check_right_value = true;
+                (txt as ELEntryBox).Value = (txt_3 as ELEntryBox).Value;
             }
             else if ((radio_4 as ELRadioButton).Checked == true && (txt_4 as ELEntryBox).Value.ToString().Trim() != "" && (txt_5 as ELEntryBox).Value.ToString().Trim() != "" )
             {
@@ -180,17 +267,16 @@ namespace Almas
                         (txt as ELEntryBox).Value = (txt_4 as ELEntryBox).Value + " تا " + (txt_5 as ELEntryBox).Value; check_right_value = true;
                     }
                 }
-
+                if (!check_right_value)
+                {
+                    (txt as ELEntryBox).Value = "";
+                    extramessage_frm.Show("مقادیر وارد شده درست نمی باشد", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    error_show_modal = false;
+                }
             }
-            if (!check_right_value)
-            {
-                (txt as ELEntryBox).Value = "";
-                extramessage_frm.Show("مقادیر وارد شده درست نمی باشد", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-            }
-            else
-            {
+            
+            if(error_show_modal == true)
                 Modal2.Close();
-            }
         }
 
         //====================================================================================================
@@ -236,7 +322,14 @@ namespace Almas
 
         private void elRichPanel3_FooterButtonClick(object sender, Klik.Windows.Forms.v1.Common.HeaderButtonClickEventArgs e)
         {
-            Small_RichPanel_Send_Data(salary_radio_1, salary_radio_2, salary_radio_3, salary_radio_4, salary_txt_1, salary_txt_2, salary_txt_3, salary_txt_4, salary_txt_5, salary_txt);
+            if (e.HeaderButton.BorderType == Klik.Windows.Forms.v1.Common.BorderTypes.Dash)
+            {
+                Empty_EntryBox_In_Small_RichPanel(sender);
+            }
+            else
+            {
+                Small_RichPanel_Send_Data(salary_radio_1, salary_radio_2, salary_radio_3, salary_radio_4, salary_txt_1, salary_txt_2, salary_txt_3, salary_txt_4, salary_txt_5, salary_txt);
+            }
         }
 
         //===================================================================================================
@@ -287,7 +380,14 @@ namespace Almas
 
         private void elRichPanel6_FooterButtonClick(object sender, Klik.Windows.Forms.v1.Common.HeaderButtonClickEventArgs e)
         {
-            Small_RichPanel_Send_Data(overtime_radio_1, overtime_radio_2, overtime_radio_3, overtime_radio_4, overtime_txt_1, overtime_txt_2, overtime_txt_3, overtime_txt_4, overtime_txt_5, overtime_txt);
+            if (e.HeaderButton.BorderType == Klik.Windows.Forms.v1.Common.BorderTypes.Dash)
+            {
+                Empty_EntryBox_In_Small_RichPanel(sender);
+            }
+            else
+            {
+                Small_RichPanel_Send_Data(overtime_radio_1, overtime_radio_2, overtime_radio_3, overtime_radio_4, overtime_txt_1, overtime_txt_2, overtime_txt_3, overtime_txt_4, overtime_txt_5, overtime_txt);
+            }
         }
 
         //===================================================================================================
@@ -343,7 +443,14 @@ namespace Almas
 
         private void elRichPanel5_FooterButtonClick(object sender, Klik.Windows.Forms.v1.Common.HeaderButtonClickEventArgs e)
         {
-            Small_RichPanel_Send_Data(payTime_radio_1, payTime_radio_2, payTime_radio_3, payTime_radio_4, payTime_txt_1, payTime_txt_2, payTime_txt_3, payTime_txt_4, payTime_txt_5, pay_time_txt);
+            if (e.HeaderButton.BorderType == Klik.Windows.Forms.v1.Common.BorderTypes.Dash)
+            {
+                Empty_EntryBox_In_Small_RichPanel(sender);
+            }
+            else
+            {
+                Small_RichPanel_Send_Data(payTime_radio_1, payTime_radio_2, payTime_radio_3, payTime_radio_4, payTime_txt_1, payTime_txt_2, payTime_txt_3, payTime_txt_4, payTime_txt_5, pay_time_txt);
+            }
         }
 
         //===================================================================================================
@@ -376,7 +483,14 @@ namespace Almas
 
         private void elRichPanel4_FooterButtonClick(object sender, Klik.Windows.Forms.v1.Common.HeaderButtonClickEventArgs e)
         {
-            Small_RichPanel_Send_Data(birth_radio_1, birth_radio_2, birth_radio_3, birth_radio_4, birth_txt_1, birth_txt_2, birth_txt_3, birth_txt_4, birth_txt_5, birth_txt);
+            if (e.HeaderButton.BorderType == Klik.Windows.Forms.v1.Common.BorderTypes.Dash)
+            {
+                Empty_EntryBox_In_Small_RichPanel(sender);
+            }
+            else
+            {
+                Small_RichPanel_Send_Data(birth_radio_1, birth_radio_2, birth_radio_3, birth_radio_4, birth_txt_1, birth_txt_2, birth_txt_3, birth_txt_4, birth_txt_5, birth_txt);
+            }
         }
 
         private void birth_radio_1_CheckedChanged(object sender, EventArgs e)
@@ -491,12 +605,16 @@ namespace Almas
         private void united_combo_SelectedIndexChanged(object sender, EventArgs e)
         {
             city_combo.Items.Clear();
-            foreach (DataRow item in _PublicClass.City(((int)united_combo.SelectedKey)).Rows)
+            city_combo.Items.Add("");
+            if (united_combo.SelectedIndex > 0)
             {
-                ELListBoxItem NewItem = new ELListBoxItem();
-                NewItem.Key = item[0];
-                NewItem.Value = item[1];
-                city_combo.Items.Add(NewItem);
+                foreach (DataRow item in _PublicClass.City(((int)united_combo.SelectedKey)).Rows)
+                {
+                    ELListBoxItem NewItem = new ELListBoxItem();
+                    NewItem.Key = item[0];
+                    NewItem.Value = item[1];
+                    city_combo.Items.Add(NewItem);
+                }
             }
         }
 
@@ -567,7 +685,7 @@ namespace Almas
                 }
                 else if (item is ELComboBox)
                 {
-                    if ((item as ELComboBox).SelectedIndex != -1 && (item as ELComboBox).Tag.ToString() != "illness")
+                    if ((item as ELComboBox).SelectedIndex > 0 && (item as ELComboBox).Tag.ToString() != "illness")
                     {
                         tag = (item as ELComboBox).Tag.ToString();
                         value = (item as ELComboBox).SelectedKey.ToString().Trim();
@@ -739,6 +857,23 @@ namespace Almas
 
 
             return res;
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            Modal2.Show(elRichPanel7, elRichPanel8);
+        }
+
+        private void elButton8_Click(object sender, EventArgs e)
+        {
+            string sex = elRadioButton2.Checked == true ? "خانم" : "آقای";
+            if(extramessage_frm.Show("آیا مایل به حذف " + sex + " " + elEntryBox2.Value.ToString() + " " + elEntryBox3.Value.ToString() + " می باشید ؟ ",MessageBoxButtons.YesNo, MessageBoxIcon.Error) == System.Windows.Forms.DialogResult.Yes)
+            {
+                BLL.cleark clrk = new BLL.cleark();
+                clrk.Delete(elEntryBox1.Value.ToString());
+                elButton6_Click(null, null);
+                Modal1.Close();
+            }
         }
 
         //======================================================

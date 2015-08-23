@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            Klik.Windows.Forms.v1.EntryLib.ELListBoxSelectionStyles elListBoxSelectionStyles9 = new Klik.Windows.Forms.v1.EntryLib.ELListBoxSelectionStyles();
             Klik.Windows.Forms.v1.EntryLib.ELListBoxSelectionStyles elListBoxSelectionStyles1 = new Klik.Windows.Forms.v1.EntryLib.ELListBoxSelectionStyles();
             Klik.Windows.Forms.v1.EntryLib.ELListBoxSelectionStyles elListBoxSelectionStyles2 = new Klik.Windows.Forms.v1.EntryLib.ELListBoxSelectionStyles();
             Klik.Windows.Forms.v1.EntryLib.ELListBoxSelectionStyles elListBoxSelectionStyles3 = new Klik.Windows.Forms.v1.EntryLib.ELListBoxSelectionStyles();
@@ -38,9 +39,11 @@
             Klik.Windows.Forms.v1.EntryLib.ELListBoxSelectionStyles elListBoxSelectionStyles7 = new Klik.Windows.Forms.v1.EntryLib.ELListBoxSelectionStyles();
             Klik.Windows.Forms.v1.EntryLib.ELListBoxItem elListBoxItem1 = new Klik.Windows.Forms.v1.EntryLib.ELListBoxItem();
             Klik.Windows.Forms.v1.EntryLib.ELListBoxItem elListBoxItem2 = new Klik.Windows.Forms.v1.EntryLib.ELListBoxItem();
-            Klik.Windows.Forms.v1.EntryLib.ELListBoxSelectionStyles elListBoxSelectionStyles8 = new Klik.Windows.Forms.v1.EntryLib.ELListBoxSelectionStyles();
             Klik.Windows.Forms.v1.EntryLib.ELListBoxItem elListBoxItem3 = new Klik.Windows.Forms.v1.EntryLib.ELListBoxItem();
+            Klik.Windows.Forms.v1.EntryLib.ELListBoxSelectionStyles elListBoxSelectionStyles8 = new Klik.Windows.Forms.v1.EntryLib.ELListBoxSelectionStyles();
             Klik.Windows.Forms.v1.EntryLib.ELListBoxItem elListBoxItem4 = new Klik.Windows.Forms.v1.EntryLib.ELListBoxItem();
+            Klik.Windows.Forms.v1.EntryLib.ELListBoxItem elListBoxItem5 = new Klik.Windows.Forms.v1.EntryLib.ELListBoxItem();
+            Klik.Windows.Forms.v1.EntryLib.ELListBoxItem elListBoxItem6 = new Klik.Windows.Forms.v1.EntryLib.ELListBoxItem();
             Klik.Windows.Forms.v1.Common.PaintStyle paintStyle1 = new Klik.Windows.Forms.v1.Common.PaintStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Clerk_Show));
             this.DataGridView1 = new Klik.Windows.Forms.v1.EntryLib.ELDataGridView();
@@ -56,7 +59,42 @@
             this.start_work_col = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.end_work_col = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.elRichPanel1 = new Klik.Windows.Forms.v1.EntryLib.ELRichPanel();
+            this.elRichPanel7 = new Klik.Windows.Forms.v1.EntryLib.ELRichPanel();
+            this.elEntryBox14 = new Klik.Windows.Forms.v1.EntryLib.ELEntryBox();
+            this.elEntryBox13 = new Klik.Windows.Forms.v1.EntryLib.ELEntryBox();
+            this.elEntryBox12 = new Klik.Windows.Forms.v1.EntryLib.ELEntryBox();
+            this.elEntryBox11 = new Klik.Windows.Forms.v1.EntryLib.ELEntryBox();
+            this.elEntryBox10 = new Klik.Windows.Forms.v1.EntryLib.ELEntryBox();
+            this.elEntryBox9 = new Klik.Windows.Forms.v1.EntryLib.ELEntryBox();
+            this.elEntryBox8 = new Klik.Windows.Forms.v1.EntryLib.ELEntryBox();
+            this.elButton8 = new Klik.Windows.Forms.v1.EntryLib.ELButton();
+            this.elButton7 = new Klik.Windows.Forms.v1.EntryLib.ELButton();
+            this.elRichPanel8 = new Klik.Windows.Forms.v1.EntryLib.ELRichPanel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.elEntryBox23 = new Klik.Windows.Forms.v1.EntryLib.ELComboBox();
+            this.elRadioButton2 = new Klik.Windows.Forms.v1.EntryLib.ELRadioButton();
+            this.elRadioButton3 = new Klik.Windows.Forms.v1.EntryLib.ELRadioButton();
+            this.elEntryBox1 = new Klik.Windows.Forms.v1.EntryLib.ELEntryBox();
+            this.elCheckBox1 = new Klik.Windows.Forms.v1.EntryLib.ELCheckBox();
+            this.elEntryBox22 = new Klik.Windows.Forms.v1.EntryLib.ELEntryBox();
+            this.elEntryBox19 = new Klik.Windows.Forms.v1.EntryLib.ELEntryBox();
+            this.elEntryBox18 = new Klik.Windows.Forms.v1.EntryLib.ELEntryBox();
+            this.elEntryBox20 = new Klik.Windows.Forms.v1.EntryLib.ELEntryBox();
+            this.elDivider17 = new Klik.Windows.Forms.v1.EntryLib.ELDivider();
+            this.elEntryBox21 = new Klik.Windows.Forms.v1.EntryLib.ELEntryBox();
+            this.elDivider18 = new Klik.Windows.Forms.v1.EntryLib.ELDivider();
+            this.elEntryBox16 = new Klik.Windows.Forms.v1.EntryLib.ELEntryBox();
+            this.elEntryBox17 = new Klik.Windows.Forms.v1.EntryLib.ELEntryBox();
+            this.elEntryBox6 = new Klik.Windows.Forms.v1.EntryLib.ELEntryBox();
+            this.elEntryBox5 = new Klik.Windows.Forms.v1.EntryLib.ELEntryBox();
+            this.elDivider19 = new Klik.Windows.Forms.v1.EntryLib.ELDivider();
+            this.elEntryBox15 = new Klik.Windows.Forms.v1.EntryLib.ELEntryBox();
+            this.elEntryBox7 = new Klik.Windows.Forms.v1.EntryLib.ELEntryBox();
+            this.elEntryBox4 = new Klik.Windows.Forms.v1.EntryLib.ELEntryBox();
+            this.elEntryBox2 = new Klik.Windows.Forms.v1.EntryLib.ELEntryBox();
+            this.elEntryBox3 = new Klik.Windows.Forms.v1.EntryLib.ELEntryBox();
             this.elRichPanel2 = new Klik.Windows.Forms.v1.EntryLib.ELRichPanel();
+            this.elRadioButton1 = new Klik.Windows.Forms.v1.EntryLib.ELRadioButton();
             this.elButton6 = new Klik.Windows.Forms.v1.EntryLib.ELButton();
             this.illness_combo = new Klik.Windows.Forms.v1.EntryLib.ELComboBox();
             this.woman_radio = new Klik.Windows.Forms.v1.EntryLib.ELRadioButton();
@@ -103,18 +141,15 @@
             this.family_txt = new Klik.Windows.Forms.v1.EntryLib.ELEntryBox();
             this.elLabel1 = new Klik.Windows.Forms.v1.EntryLib.ELLabel();
             this.elButton3 = new Klik.Windows.Forms.v1.EntryLib.ELButton();
+            this.monthCalendarX1 = new BehComponents.MonthCalendarX();
             this.elRichPanel4 = new Klik.Windows.Forms.v1.EntryLib.ELRichPanel();
             this.birth_txt_5 = new Klik.Windows.Forms.v1.EntryLib.ELEntryBox();
             this.elEntryBoxButton10 = new Klik.Windows.Forms.v1.EntryLib.ELEntryBoxButton();
-            this.monthCalendarX1 = new BehComponents.MonthCalendarX();
             this.birth_txt_4 = new Klik.Windows.Forms.v1.EntryLib.ELEntryBox();
             this.elEntryBoxButton9 = new Klik.Windows.Forms.v1.EntryLib.ELEntryBoxButton();
             this.birth_txt_3 = new Klik.Windows.Forms.v1.EntryLib.ELEntryBox();
-            this.elEntryBoxButton8 = new Klik.Windows.Forms.v1.EntryLib.ELEntryBoxButton();
             this.birth_txt_2 = new Klik.Windows.Forms.v1.EntryLib.ELEntryBox();
-            this.elEntryBoxButton7 = new Klik.Windows.Forms.v1.EntryLib.ELEntryBoxButton();
             this.birth_txt_1 = new Klik.Windows.Forms.v1.EntryLib.ELEntryBox();
-            this.elEntryBoxButton6 = new Klik.Windows.Forms.v1.EntryLib.ELEntryBoxButton();
             this.birth_radio_4 = new Klik.Windows.Forms.v1.EntryLib.ELRadioButton();
             this.elDivider7 = new Klik.Windows.Forms.v1.EntryLib.ELDivider();
             this.birth_radio_3 = new Klik.Windows.Forms.v1.EntryLib.ELRadioButton();
@@ -138,15 +173,10 @@
             this.salary_radio_1 = new Klik.Windows.Forms.v1.EntryLib.ELRadioButton();
             this.elRichPanel5 = new Klik.Windows.Forms.v1.EntryLib.ELRichPanel();
             this.payTime_txt_5 = new Klik.Windows.Forms.v1.EntryLib.ELEntryBox();
-            this.elEntryBoxButton5 = new Klik.Windows.Forms.v1.EntryLib.ELEntryBoxButton();
             this.payTime_txt_4 = new Klik.Windows.Forms.v1.EntryLib.ELEntryBox();
-            this.elEntryBoxButton4 = new Klik.Windows.Forms.v1.EntryLib.ELEntryBoxButton();
             this.payTime_txt_3 = new Klik.Windows.Forms.v1.EntryLib.ELEntryBox();
-            this.elEntryBoxButton3 = new Klik.Windows.Forms.v1.EntryLib.ELEntryBoxButton();
             this.payTime_txt_2 = new Klik.Windows.Forms.v1.EntryLib.ELEntryBox();
-            this.elEntryBoxButton2 = new Klik.Windows.Forms.v1.EntryLib.ELEntryBoxButton();
             this.payTime_txt_1 = new Klik.Windows.Forms.v1.EntryLib.ELEntryBox();
-            this.elEntryBoxButton1 = new Klik.Windows.Forms.v1.EntryLib.ELEntryBoxButton();
             this.payTime_radio_4 = new Klik.Windows.Forms.v1.EntryLib.ELRadioButton();
             this.elDivider11 = new Klik.Windows.Forms.v1.EntryLib.ELDivider();
             this.payTime_radio_3 = new Klik.Windows.Forms.v1.EntryLib.ELRadioButton();
@@ -167,15 +197,69 @@
             this.overtime_radio_2 = new Klik.Windows.Forms.v1.EntryLib.ELRadioButton();
             this.elDivider16 = new Klik.Windows.Forms.v1.EntryLib.ELDivider();
             this.overtime_radio_1 = new Klik.Windows.Forms.v1.EntryLib.ELRadioButton();
+            this.elEntryBoxButton1 = new Klik.Windows.Forms.v1.EntryLib.ELEntryBoxButton();
+            this.elEntryBoxButton2 = new Klik.Windows.Forms.v1.EntryLib.ELEntryBoxButton();
+            this.elEntryBoxButton3 = new Klik.Windows.Forms.v1.EntryLib.ELEntryBoxButton();
+            this.elEntryBoxButton4 = new Klik.Windows.Forms.v1.EntryLib.ELEntryBoxButton();
+            this.elEntryBoxButton5 = new Klik.Windows.Forms.v1.EntryLib.ELEntryBoxButton();
+            this.elEntryBoxButton6 = new Klik.Windows.Forms.v1.EntryLib.ELEntryBoxButton();
+            this.elEntryBoxButton7 = new Klik.Windows.Forms.v1.EntryLib.ELEntryBoxButton();
+            this.elEntryBoxButton8 = new Klik.Windows.Forms.v1.EntryLib.ELEntryBoxButton();
+            this.elEntryBoxButton13 = new Klik.Windows.Forms.v1.EntryLib.ELEntryBoxButton();
+            this.elEntryBoxButton14 = new Klik.Windows.Forms.v1.EntryLib.ELEntryBoxButton();
+            this.elEntryBoxButton15 = new Klik.Windows.Forms.v1.EntryLib.ELEntryBoxButton();
+            this.headerButton2 = new Klik.Windows.Forms.v1.Common.HeaderButton();
+            this.headerButton3 = new Klik.Windows.Forms.v1.Common.HeaderButton();
+            this.headerButton4 = new Klik.Windows.Forms.v1.Common.HeaderButton();
+            this.headerButton5 = new Klik.Windows.Forms.v1.Common.HeaderButton();
             this.time_picker1 = new Almas.time_picker();
             this.elEntryBoxButton12 = new Klik.Windows.Forms.v1.EntryLib.ELEntryBoxButton();
             this.elEntryBoxButton11 = new Klik.Windows.Forms.v1.EntryLib.ELEntryBoxButton();
-            this.elRadioButton1 = new Klik.Windows.Forms.v1.EntryLib.ELRadioButton();
+            this.elEntryBoxButton16 = new Klik.Windows.Forms.v1.EntryLib.ELEntryBoxButton();
+            this.elEntryBoxButton17 = new Klik.Windows.Forms.v1.EntryLib.ELEntryBoxButton();
+            this.elEntryBoxButton18 = new Klik.Windows.Forms.v1.EntryLib.ELEntryBoxButton();
             ((System.ComponentModel.ISupportInitialize)(this.DataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.elRichPanel1)).BeginInit();
             this.elRichPanel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.elRichPanel7)).BeginInit();
+            this.elRichPanel7.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.elEntryBox14)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.elEntryBox13)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.elEntryBox12)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.elEntryBox11)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.elEntryBox10)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.elEntryBox9)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.elEntryBox8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.elButton8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.elButton7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.elRichPanel8)).BeginInit();
+            this.elRichPanel8.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.elEntryBox23)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.elRadioButton2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.elRadioButton3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.elEntryBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.elCheckBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.elEntryBox22)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.elEntryBox19)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.elEntryBox18)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.elEntryBox20)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.elDivider17)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.elEntryBox21)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.elDivider18)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.elEntryBox16)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.elEntryBox17)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.elEntryBox6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.elEntryBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.elDivider19)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.elEntryBox15)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.elEntryBox7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.elEntryBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.elEntryBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.elEntryBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.elRichPanel2)).BeginInit();
             this.elRichPanel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.elRadioButton1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.elButton6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.illness_combo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.woman_radio)).BeginInit();
@@ -278,7 +362,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.overtime_radio_2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.elDivider16)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.overtime_radio_1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.elRadioButton1)).BeginInit();
             this.SuspendLayout();
             // 
             // DataGridView1
@@ -419,6 +502,7 @@
             // 
             this.elRichPanel1.ContainerStyle.BackgroundStyle.GradientAngle = 45F;
             this.elRichPanel1.Controls.Add(this.elRichPanel2);
+            this.elRichPanel1.Controls.Add(this.elRichPanel7);
             this.elRichPanel1.Controls.Add(this.elLabel1);
             this.elRichPanel1.Controls.Add(this.elButton3);
             this.elRichPanel1.Controls.Add(this.DataGridView1);
@@ -442,6 +526,677 @@
             this.elRichPanel1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.elRichPanel1.Size = new System.Drawing.Size(947, 483);
             this.elRichPanel1.TabIndex = 107;
+            // 
+            // elRichPanel7
+            // 
+            this.elRichPanel7.ContainerStyle.BackgroundStyle.GradientAngle = 45F;
+            this.elRichPanel7.Controls.Add(this.elEntryBox14);
+            this.elRichPanel7.Controls.Add(this.elEntryBox13);
+            this.elRichPanel7.Controls.Add(this.elEntryBox12);
+            this.elRichPanel7.Controls.Add(this.elEntryBox11);
+            this.elRichPanel7.Controls.Add(this.elEntryBox10);
+            this.elRichPanel7.Controls.Add(this.elEntryBox9);
+            this.elRichPanel7.Controls.Add(this.elEntryBox8);
+            this.elRichPanel7.Controls.Add(this.elButton8);
+            this.elRichPanel7.Controls.Add(this.elButton7);
+            this.elRichPanel7.Controls.Add(this.elRichPanel8);
+            this.elRichPanel7.Controls.Add(this.elEntryBox23);
+            this.elRichPanel7.Controls.Add(this.elRadioButton2);
+            this.elRichPanel7.Controls.Add(this.elRadioButton3);
+            this.elRichPanel7.Controls.Add(this.elEntryBox1);
+            this.elRichPanel7.Controls.Add(this.elCheckBox1);
+            this.elRichPanel7.Controls.Add(this.elEntryBox22);
+            this.elRichPanel7.Controls.Add(this.elEntryBox19);
+            this.elRichPanel7.Controls.Add(this.elEntryBox18);
+            this.elRichPanel7.Controls.Add(this.elEntryBox20);
+            this.elRichPanel7.Controls.Add(this.elDivider17);
+            this.elRichPanel7.Controls.Add(this.elEntryBox21);
+            this.elRichPanel7.Controls.Add(this.elDivider18);
+            this.elRichPanel7.Controls.Add(this.elEntryBox16);
+            this.elRichPanel7.Controls.Add(this.elEntryBox17);
+            this.elRichPanel7.Controls.Add(this.elEntryBox6);
+            this.elRichPanel7.Controls.Add(this.elEntryBox5);
+            this.elRichPanel7.Controls.Add(this.elDivider19);
+            this.elRichPanel7.Controls.Add(this.elEntryBox15);
+            this.elRichPanel7.Controls.Add(this.elEntryBox7);
+            this.elRichPanel7.Controls.Add(this.elEntryBox4);
+            this.elRichPanel7.Controls.Add(this.elEntryBox2);
+            this.elRichPanel7.Controls.Add(this.elEntryBox3);
+            this.elRichPanel7.Expanded = true;
+            this.elRichPanel7.FooterStyle.BackgroundStyle.GradientAngle = 45F;
+            this.elRichPanel7.FooterStyle.ButtonStyle.ButtonAlignment = System.Windows.Forms.LeftRightAlignment.Left;
+            this.elRichPanel7.FooterStyle.ButtonStyle.ButtonGap = 15;
+            this.elRichPanel7.FooterStyle.FlashStyle.GradientAngle = 0F;
+            this.elRichPanel7.FooterStyle.FlashStyle.PaintType = Klik.Windows.Forms.v1.Common.PaintTypes.Solid;
+            this.elRichPanel7.FooterStyle.FlashStyle.SolidColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(240)))), ((int)(((byte)(191)))));
+            this.elRichPanel7.FooterStyle.TextStyle.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.elRichPanel7.HeaderStyle.ButtonStyle.ButtonAlignment = System.Windows.Forms.LeftRightAlignment.Left;
+            this.elRichPanel7.HeaderStyle.ButtonStyle.ButtonGap = 2;
+            this.elRichPanel7.HeaderStyle.FlashStyle.PaintType = Klik.Windows.Forms.v1.Common.PaintTypes.Solid;
+            this.elRichPanel7.HeaderStyle.FlashStyle.SolidColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(240)))), ((int)(((byte)(191)))));
+            this.elRichPanel7.HeaderStyle.Height = 24;
+            this.elRichPanel7.HeaderStyle.TextStyle.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.elRichPanel7.HeaderStyle.TextStyle.Text = "اطلاعات عمومی ";
+            this.elRichPanel7.HeaderStyle.TextStyle.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.elRichPanel7.HeaderStyle.TextStyle.TextType = Klik.Windows.Forms.v1.Common.TextTypes.DropShadow;
+            this.elRichPanel7.Location = new System.Drawing.Point(93, 20);
+            this.elRichPanel7.Name = "elRichPanel7";
+            this.elRichPanel7.Padding = new System.Windows.Forms.Padding(1, 24, 1, 16);
+            this.elRichPanel7.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.elRichPanel7.Size = new System.Drawing.Size(772, 390);
+            this.elRichPanel7.TabIndex = 111;
+            this.elRichPanel7.Visible = false;
+            // 
+            // elEntryBox14
+            // 
+            this.elEntryBox14.CaptionStyle.CaptionSize = 60;
+            this.elEntryBox14.CaptionStyle.FlashStyle.PaintType = Klik.Windows.Forms.v1.Common.PaintTypes.Solid;
+            this.elEntryBox14.CaptionStyle.FlashStyle.SolidColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(240)))), ((int)(((byte)(191)))));
+            this.elEntryBox14.CaptionStyle.TextStyle.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.elEntryBox14.CaptionStyle.TextStyle.Text = "شهرستان";
+            this.elEntryBox14.EditBoxStyle.BackColor = System.Drawing.Color.White;
+            this.elEntryBox14.EditBoxStyle.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.elEntryBox14.EditBoxStyle.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.elEntryBox14.EditBoxStyle.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.elEntryBox14.Location = new System.Drawing.Point(208, 210);
+            this.elEntryBox14.Name = "elEntryBox14";
+            this.elEntryBox14.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.elEntryBox14.Size = new System.Drawing.Size(175, 26);
+            this.elEntryBox14.TabIndex = 118;
+            this.elEntryBox14.Tag = "";
+            this.elEntryBox14.ValidationStyle.PasswordChar = '\0';
+            this.elEntryBox14.Value = "";
+            // 
+            // elEntryBox13
+            // 
+            this.elEntryBox13.CaptionStyle.CaptionSize = 55;
+            this.elEntryBox13.CaptionStyle.FlashStyle.PaintType = Klik.Windows.Forms.v1.Common.PaintTypes.Solid;
+            this.elEntryBox13.CaptionStyle.FlashStyle.SolidColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(240)))), ((int)(((byte)(191)))));
+            this.elEntryBox13.CaptionStyle.TextStyle.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.elEntryBox13.CaptionStyle.TextStyle.Text = "استان";
+            this.elEntryBox13.EditBoxStyle.BackColor = System.Drawing.Color.White;
+            this.elEntryBox13.EditBoxStyle.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.elEntryBox13.EditBoxStyle.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.elEntryBox13.EditBoxStyle.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.elEntryBox13.Location = new System.Drawing.Point(392, 210);
+            this.elEntryBox13.Name = "elEntryBox13";
+            this.elEntryBox13.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.elEntryBox13.Size = new System.Drawing.Size(172, 26);
+            this.elEntryBox13.TabIndex = 117;
+            this.elEntryBox13.Tag = "";
+            this.elEntryBox13.ValidationStyle.PasswordChar = '\0';
+            this.elEntryBox13.Value = "";
+            // 
+            // elEntryBox12
+            // 
+            this.elEntryBox12.CaptionStyle.CaptionSize = 55;
+            this.elEntryBox12.CaptionStyle.FlashStyle.PaintType = Klik.Windows.Forms.v1.Common.PaintTypes.Solid;
+            this.elEntryBox12.CaptionStyle.FlashStyle.SolidColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(240)))), ((int)(((byte)(191)))));
+            this.elEntryBox12.CaptionStyle.TextStyle.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.elEntryBox12.CaptionStyle.TextStyle.Text = "مذهب";
+            this.elEntryBox12.EditBoxStyle.BackColor = System.Drawing.Color.White;
+            this.elEntryBox12.EditBoxStyle.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.elEntryBox12.EditBoxStyle.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.elEntryBox12.EditBoxStyle.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.elEntryBox12.Location = new System.Drawing.Point(21, 156);
+            this.elEntryBox12.Name = "elEntryBox12";
+            this.elEntryBox12.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.elEntryBox12.Size = new System.Drawing.Size(175, 26);
+            this.elEntryBox12.TabIndex = 116;
+            this.elEntryBox12.Tag = "";
+            this.elEntryBox12.ValidationStyle.PasswordChar = '\0';
+            this.elEntryBox12.Value = "";
+            // 
+            // elEntryBox11
+            // 
+            this.elEntryBox11.CaptionStyle.CaptionSize = 55;
+            this.elEntryBox11.CaptionStyle.FlashStyle.PaintType = Klik.Windows.Forms.v1.Common.PaintTypes.Solid;
+            this.elEntryBox11.CaptionStyle.FlashStyle.SolidColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(240)))), ((int)(((byte)(191)))));
+            this.elEntryBox11.CaptionStyle.TextStyle.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.elEntryBox11.CaptionStyle.TextStyle.Text = "دین";
+            this.elEntryBox11.EditBoxStyle.BackColor = System.Drawing.Color.White;
+            this.elEntryBox11.EditBoxStyle.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.elEntryBox11.EditBoxStyle.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.elEntryBox11.EditBoxStyle.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.elEntryBox11.Location = new System.Drawing.Point(206, 156);
+            this.elEntryBox11.Name = "elEntryBox11";
+            this.elEntryBox11.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.elEntryBox11.Size = new System.Drawing.Size(175, 26);
+            this.elEntryBox11.TabIndex = 115;
+            this.elEntryBox11.Tag = "";
+            this.elEntryBox11.ValidationStyle.PasswordChar = '\0';
+            this.elEntryBox11.Value = "";
+            // 
+            // elEntryBox10
+            // 
+            this.elEntryBox10.CaptionStyle.CaptionSize = 55;
+            this.elEntryBox10.CaptionStyle.FlashStyle.PaintType = Klik.Windows.Forms.v1.Common.PaintTypes.Solid;
+            this.elEntryBox10.CaptionStyle.FlashStyle.SolidColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(240)))), ((int)(((byte)(191)))));
+            this.elEntryBox10.CaptionStyle.TextStyle.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.elEntryBox10.CaptionStyle.TextStyle.Text = "تحصیلات";
+            this.elEntryBox10.EditBoxStyle.BackColor = System.Drawing.Color.White;
+            this.elEntryBox10.EditBoxStyle.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.elEntryBox10.EditBoxStyle.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.elEntryBox10.EditBoxStyle.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.elEntryBox10.Location = new System.Drawing.Point(388, 156);
+            this.elEntryBox10.Name = "elEntryBox10";
+            this.elEntryBox10.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.elEntryBox10.Size = new System.Drawing.Size(175, 26);
+            this.elEntryBox10.TabIndex = 114;
+            this.elEntryBox10.Tag = "";
+            this.elEntryBox10.ValidationStyle.PasswordChar = '\0';
+            this.elEntryBox10.Value = "";
+            // 
+            // elEntryBox9
+            // 
+            this.elEntryBox9.CaptionStyle.CaptionSize = 85;
+            this.elEntryBox9.CaptionStyle.FlashStyle.PaintType = Klik.Windows.Forms.v1.Common.PaintTypes.Solid;
+            this.elEntryBox9.CaptionStyle.FlashStyle.SolidColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(240)))), ((int)(((byte)(191)))));
+            this.elEntryBox9.CaptionStyle.TextStyle.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.elEntryBox9.CaptionStyle.TextStyle.Text = "وضعیت سربازی";
+            this.elEntryBox9.EditBoxStyle.BackColor = System.Drawing.Color.White;
+            this.elEntryBox9.EditBoxStyle.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.elEntryBox9.EditBoxStyle.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.elEntryBox9.EditBoxStyle.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.elEntryBox9.Location = new System.Drawing.Point(21, 106);
+            this.elEntryBox9.Name = "elEntryBox9";
+            this.elEntryBox9.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.elEntryBox9.Size = new System.Drawing.Size(175, 26);
+            this.elEntryBox9.TabIndex = 113;
+            this.elEntryBox9.Tag = "";
+            this.elEntryBox9.ValidationStyle.PasswordChar = '\0';
+            this.elEntryBox9.Value = "";
+            // 
+            // elEntryBox8
+            // 
+            this.elEntryBox8.CaptionStyle.CaptionSize = 55;
+            this.elEntryBox8.CaptionStyle.FlashStyle.PaintType = Klik.Windows.Forms.v1.Common.PaintTypes.Solid;
+            this.elEntryBox8.CaptionStyle.FlashStyle.SolidColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(240)))), ((int)(((byte)(191)))));
+            this.elEntryBox8.CaptionStyle.TextStyle.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.elEntryBox8.CaptionStyle.TextStyle.Text = "تاهل";
+            this.elEntryBox8.EditBoxStyle.BackColor = System.Drawing.Color.White;
+            this.elEntryBox8.EditBoxStyle.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.elEntryBox8.EditBoxStyle.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.elEntryBox8.EditBoxStyle.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.elEntryBox8.Location = new System.Drawing.Point(204, 106);
+            this.elEntryBox8.Name = "elEntryBox8";
+            this.elEntryBox8.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.elEntryBox8.Size = new System.Drawing.Size(177, 26);
+            this.elEntryBox8.TabIndex = 112;
+            this.elEntryBox8.Tag = "";
+            this.elEntryBox8.ValidationStyle.PasswordChar = '\0';
+            this.elEntryBox8.Value = "";
+            // 
+            // elButton8
+            // 
+            this.elButton8.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.elButton8.DialogResult = System.Windows.Forms.DialogResult.Cancel;
+            this.elButton8.FlashStyle.PaintType = Klik.Windows.Forms.v1.Common.PaintTypes.Solid;
+            this.elButton8.FlashStyle.SolidColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(240)))), ((int)(((byte)(191)))));
+            this.elButton8.ForegroundImageStyle.ImageAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.elButton8.Location = new System.Drawing.Point(114, 329);
+            this.elButton8.Name = "elButton8";
+            this.elButton8.Size = new System.Drawing.Size(84, 26);
+            this.elButton8.TabIndex = 110;
+            this.elButton8.TextStyle.Font = new System.Drawing.Font("Tahoma", 9F);
+            this.elButton8.TextStyle.Text = "حذف";
+            this.elButton8.TextStyle.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.elButton8.Click += new System.EventHandler(this.elButton8_Click);
+            // 
+            // elButton7
+            // 
+            this.elButton7.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.elButton7.DialogResult = System.Windows.Forms.DialogResult.Cancel;
+            this.elButton7.FlashStyle.PaintType = Klik.Windows.Forms.v1.Common.PaintTypes.Solid;
+            this.elButton7.FlashStyle.SolidColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(240)))), ((int)(((byte)(191)))));
+            this.elButton7.ForegroundImageStyle.ImageAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.elButton7.Location = new System.Drawing.Point(26, 329);
+            this.elButton7.Name = "elButton7";
+            this.elButton7.Size = new System.Drawing.Size(84, 26);
+            this.elButton7.TabIndex = 109;
+            this.elButton7.TextStyle.Font = new System.Drawing.Font("Tahoma", 9F);
+            this.elButton7.TextStyle.Text = "ویرایش";
+            this.elButton7.TextStyle.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // elRichPanel8
+            // 
+            this.elRichPanel8.ContainerStyle.BackgroundStyle.GradientAngle = 45F;
+            this.elRichPanel8.Controls.Add(this.pictureBox1);
+            this.elRichPanel8.Expanded = true;
+            this.elRichPanel8.FooterStyle.BackgroundStyle.GradientAngle = 45F;
+            this.elRichPanel8.FooterStyle.FlashStyle.GradientAngle = 0F;
+            this.elRichPanel8.FooterStyle.FlashStyle.PaintType = Klik.Windows.Forms.v1.Common.PaintTypes.Solid;
+            this.elRichPanel8.FooterStyle.FlashStyle.SolidColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(240)))), ((int)(((byte)(191)))));
+            this.elRichPanel8.FooterStyle.Height = 10;
+            this.elRichPanel8.HeaderStyle.FlashStyle.PaintType = Klik.Windows.Forms.v1.Common.PaintTypes.Solid;
+            this.elRichPanel8.HeaderStyle.FlashStyle.SolidColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(240)))), ((int)(((byte)(191)))));
+            this.elRichPanel8.HeaderStyle.Height = 20;
+            this.elRichPanel8.HeaderStyle.TextStyle.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.elRichPanel8.HeaderStyle.TextStyle.Text = "تصویر";
+            this.elRichPanel8.HeaderStyle.TextStyle.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.elRichPanel8.HeaderStyle.TextStyle.TextType = Klik.Windows.Forms.v1.Common.TextTypes.DropShadow;
+            this.elRichPanel8.Location = new System.Drawing.Point(578, 72);
+            this.elRichPanel8.Name = "elRichPanel8";
+            this.elRichPanel8.Padding = new System.Windows.Forms.Padding(1, 20, 1, 10);
+            this.elRichPanel8.Size = new System.Drawing.Size(174, 201);
+            this.elRichPanel8.TabIndex = 108;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox1.Image = global::Almas.Properties.Resources.user;
+            this.pictureBox1.Location = new System.Drawing.Point(18, 34);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(139, 144);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 66;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
+            // elEntryBox23
+            // 
+            // 
+            // 
+            // 
+            this.elEntryBox23.ButtonStyle.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.elEntryBox23.ButtonStyle.TextStyle.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.elEntryBox23.CaptionStyle.CaptionSize = 70;
+            this.elEntryBox23.CaptionStyle.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.elEntryBox23.CaptionStyle.FlashStyle.PaintType = Klik.Windows.Forms.v1.Common.PaintTypes.Solid;
+            this.elEntryBox23.CaptionStyle.FlashStyle.SolidColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(240)))), ((int)(((byte)(191)))));
+            this.elEntryBox23.CaptionStyle.TextStyle.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.elEntryBox23.CaptionStyle.TextStyle.Text = "بیماری خاص";
+            this.elEntryBox23.CheckedDisplaySeparator = ',';
+            this.elEntryBox23.CheckOnClick = true;
+            this.elEntryBox23.ComboBoxType = Klik.Windows.Forms.v1.EntryLib.ListBoxTypes.Checked;
+            this.elEntryBox23.DropDownBackgroundStyle.GradientAngle = 45F;
+            this.elEntryBox23.DropDownBackgroundStyle.PaintType = Klik.Windows.Forms.v1.Common.PaintTypes.Solid;
+            this.elEntryBox23.DropDownBackgroundStyle.SolidColor = System.Drawing.SystemColors.Window;
+            elListBoxSelectionStyles9.HotTrackStyle.BorderStyle.EdgeRadius = 4;
+            elListBoxSelectionStyles9.SelectedStyle.BorderStyle.EdgeRadius = 4;
+            this.elEntryBox23.DropDownItemSelectionStyle = elListBoxSelectionStyles9;
+            this.elEntryBox23.DropDownShadowType = Klik.Windows.Forms.v1.Common.DropDownShadowTypes.Office2007;
+            this.elEntryBox23.DropDownStyle = Klik.Windows.Forms.v1.EntryLib.DropDownStyles.DropDownList;
+            this.elEntryBox23.EditBoxStyle.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.elEntryBox23.EditBoxStyle.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.elEntryBox23.Location = new System.Drawing.Point(25, 295);
+            this.elEntryBox23.Name = "elEntryBox23";
+            this.elEntryBox23.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.elEntryBox23.Size = new System.Drawing.Size(174, 25);
+            this.elEntryBox23.TabIndex = 28;
+            this.elEntryBox23.Tag = "";
+            // 
+            // elRadioButton2
+            // 
+            this.elRadioButton2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.elRadioButton2.FlashStyle.PaintType = Klik.Windows.Forms.v1.Common.PaintTypes.Solid;
+            this.elRadioButton2.FlashStyle.SolidColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(240)))), ((int)(((byte)(191)))));
+            this.elRadioButton2.ForegroundImageStyle.FadeStart = 20;
+            this.elRadioButton2.Location = new System.Drawing.Point(670, 40);
+            this.elRadioButton2.Name = "elRadioButton2";
+            this.elRadioButton2.Size = new System.Drawing.Size(82, 23);
+            this.elRadioButton2.TabIndex = 26;
+            this.elRadioButton2.TextStyle.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.elRadioButton2.TextStyle.Text = "زن";
+            this.elRadioButton2.Value = false;
+            // 
+            // elRadioButton3
+            // 
+            this.elRadioButton3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.elRadioButton3.FlashStyle.PaintType = Klik.Windows.Forms.v1.Common.PaintTypes.Solid;
+            this.elRadioButton3.FlashStyle.SolidColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(240)))), ((int)(((byte)(191)))));
+            this.elRadioButton3.ForegroundImageStyle.FadeStart = 20;
+            this.elRadioButton3.Location = new System.Drawing.Point(578, 40);
+            this.elRadioButton3.Name = "elRadioButton3";
+            this.elRadioButton3.Size = new System.Drawing.Size(86, 23);
+            this.elRadioButton3.TabIndex = 27;
+            this.elRadioButton3.TabStop = false;
+            this.elRadioButton3.TextStyle.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.elRadioButton3.TextStyle.Text = "مرد";
+            this.elRadioButton3.Value = false;
+            // 
+            // elEntryBox1
+            // 
+            this.elEntryBox1.CaptionStyle.CaptionSize = 85;
+            this.elEntryBox1.CaptionStyle.FlashStyle.PaintType = Klik.Windows.Forms.v1.Common.PaintTypes.Solid;
+            this.elEntryBox1.CaptionStyle.FlashStyle.SolidColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(240)))), ((int)(((byte)(191)))));
+            this.elEntryBox1.CaptionStyle.TextStyle.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.elEntryBox1.CaptionStyle.TextStyle.Text = "شماره پرسنلی";
+            this.elEntryBox1.EditBoxStyle.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.elEntryBox1.EditBoxStyle.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.elEntryBox1.Location = new System.Drawing.Point(386, 40);
+            this.elEntryBox1.Name = "elEntryBox1";
+            this.elEntryBox1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.elEntryBox1.Size = new System.Drawing.Size(177, 26);
+            this.elEntryBox1.TabIndex = 1;
+            this.elEntryBox1.Tag = "code";
+            this.elEntryBox1.ValidationStyle.PasswordChar = '\0';
+            this.elEntryBox1.Value = "";
+            // 
+            // elCheckBox1
+            // 
+            this.elCheckBox1.CheckAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.elCheckBox1.Checked = true;
+            this.elCheckBox1.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.elCheckBox1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.elCheckBox1.FlashStyle.PaintType = Klik.Windows.Forms.v1.Common.PaintTypes.Solid;
+            this.elCheckBox1.FlashStyle.SolidColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(240)))), ((int)(((byte)(191)))));
+            this.elCheckBox1.ForegroundImageStyle.FadeStart = 20;
+            this.elCheckBox1.Location = new System.Drawing.Point(578, 331);
+            this.elCheckBox1.Name = "elCheckBox1";
+            this.elCheckBox1.Size = new System.Drawing.Size(174, 28);
+            this.elCheckBox1.TabIndex = 21;
+            this.elCheckBox1.TextStyle.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.elCheckBox1.TextStyle.Text = "بیمه";
+            this.elCheckBox1.Value = true;
+            // 
+            // elEntryBox22
+            // 
+            this.elEntryBox22.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.elEntryBox22.CaptionStyle.BorderStyle.SmoothingMode = Klik.Windows.Forms.v1.Common.SmoothingModes.AntiAlias;
+            this.elEntryBox22.CaptionStyle.CaptionSize = 60;
+            this.elEntryBox22.CaptionStyle.FlashStyle.PaintType = Klik.Windows.Forms.v1.Common.PaintTypes.Solid;
+            this.elEntryBox22.CaptionStyle.FlashStyle.SolidColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(240)))), ((int)(((byte)(191)))));
+            this.elEntryBox22.CaptionStyle.TextStyle.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.elEntryBox22.CaptionStyle.TextStyle.Text = "پایان کار";
+            this.elEntryBox22.EditBoxStyle.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.elEntryBox22.EditBoxStyle.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.elEntryBox22.EditBoxStyle.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.elEntryBox22.Location = new System.Drawing.Point(207, 329);
+            this.elEntryBox22.Name = "elEntryBox22";
+            this.elEntryBox22.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.elEntryBox22.Size = new System.Drawing.Size(177, 26);
+            this.elEntryBox22.TabIndex = 23;
+            this.elEntryBox22.Tag = "end_work";
+            this.elEntryBox22.ValidationStyle.PasswordChar = '\0';
+            this.elEntryBox22.Value = "";
+            // 
+            // elEntryBox19
+            // 
+            this.elEntryBox19.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.elEntryBox19.ButtonStyle.Buttons.Add(this.elEntryBoxButton2);
+            this.elEntryBox19.CaptionStyle.BorderStyle.SmoothingMode = Klik.Windows.Forms.v1.Common.SmoothingModes.AntiAlias;
+            this.elEntryBox19.CaptionStyle.CaptionSize = 70;
+            this.elEntryBox19.CaptionStyle.FlashStyle.PaintType = Klik.Windows.Forms.v1.Common.PaintTypes.Solid;
+            this.elEntryBox19.CaptionStyle.FlashStyle.SolidColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(240)))), ((int)(((byte)(191)))));
+            this.elEntryBox19.CaptionStyle.TextStyle.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.elEntryBox19.CaptionStyle.TextStyle.Text = "تاریخ پرداخت";
+            this.elEntryBox19.EditBoxStyle.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.elEntryBox19.EditBoxStyle.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.elEntryBox19.EditBoxStyle.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.elEntryBox19.Location = new System.Drawing.Point(390, 295);
+            this.elEntryBox19.Name = "elEntryBox19";
+            this.elEntryBox19.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.elEntryBox19.Size = new System.Drawing.Size(177, 26);
+            this.elEntryBox19.TabIndex = 19;
+            this.elEntryBox19.Tag = "pay_time";
+            this.elEntryBox19.ValidationStyle.PasswordChar = '\0';
+            this.elEntryBox19.Value = "";
+            // 
+            // elEntryBox18
+            // 
+            this.elEntryBox18.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.elEntryBox18.ButtonStyle.Buttons.Add(this.elEntryBoxButton1);
+            this.elEntryBox18.CaptionStyle.BorderStyle.SmoothingMode = Klik.Windows.Forms.v1.Common.SmoothingModes.AntiAlias;
+            this.elEntryBox18.CaptionStyle.CaptionSize = 60;
+            this.elEntryBox18.CaptionStyle.FlashStyle.PaintType = Klik.Windows.Forms.v1.Common.PaintTypes.Solid;
+            this.elEntryBox18.CaptionStyle.FlashStyle.SolidColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(240)))), ((int)(((byte)(191)))));
+            this.elEntryBox18.CaptionStyle.TextStyle.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.elEntryBox18.CaptionStyle.TextStyle.Text = "حقوق";
+            this.elEntryBox18.EditBoxStyle.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.elEntryBox18.EditBoxStyle.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.elEntryBox18.Location = new System.Drawing.Point(578, 294);
+            this.elEntryBox18.Name = "elEntryBox18";
+            this.elEntryBox18.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.elEntryBox18.Size = new System.Drawing.Size(174, 26);
+            this.elEntryBox18.TabIndex = 18;
+            this.elEntryBox18.Tag = "salary";
+            this.elEntryBox18.ValidationStyle.PasswordChar = '\0';
+            this.elEntryBox18.Value = "";
+            // 
+            // elEntryBox20
+            // 
+            this.elEntryBox20.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.elEntryBox20.ButtonStyle.Buttons.Add(this.elEntryBoxButton3);
+            this.elEntryBox20.CaptionStyle.BorderStyle.SmoothingMode = Klik.Windows.Forms.v1.Common.SmoothingModes.AntiAlias;
+            this.elEntryBox20.CaptionStyle.CaptionSize = 60;
+            this.elEntryBox20.CaptionStyle.FlashStyle.PaintType = Klik.Windows.Forms.v1.Common.PaintTypes.Solid;
+            this.elEntryBox20.CaptionStyle.FlashStyle.SolidColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(240)))), ((int)(((byte)(191)))));
+            this.elEntryBox20.CaptionStyle.TextStyle.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.elEntryBox20.CaptionStyle.TextStyle.Text = "اضافه کار";
+            this.elEntryBox20.EditBoxStyle.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.elEntryBox20.EditBoxStyle.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.elEntryBox20.Location = new System.Drawing.Point(206, 295);
+            this.elEntryBox20.Name = "elEntryBox20";
+            this.elEntryBox20.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.elEntryBox20.Size = new System.Drawing.Size(177, 26);
+            this.elEntryBox20.TabIndex = 20;
+            this.elEntryBox20.Tag = "overtime";
+            this.elEntryBox20.ValidationStyle.PasswordChar = '\0';
+            this.elEntryBox20.Value = "";
+            // 
+            // elDivider17
+            // 
+            this.elDivider17.FadeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.elDivider17.FadeStyle = Klik.Windows.Forms.v1.EntryLib.DividerFadeStyles.Center;
+            this.elDivider17.LineColor = System.Drawing.Color.Red;
+            this.elDivider17.Location = new System.Drawing.Point(25, 270);
+            this.elDivider17.Name = "elDivider17";
+            this.elDivider17.Size = new System.Drawing.Size(727, 23);
+            this.elDivider17.TabIndex = 91;
+            // 
+            // elEntryBox21
+            // 
+            this.elEntryBox21.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.elEntryBox21.CaptionStyle.BorderStyle.SmoothingMode = Klik.Windows.Forms.v1.Common.SmoothingModes.AntiAlias;
+            this.elEntryBox21.CaptionStyle.CaptionSize = 60;
+            this.elEntryBox21.CaptionStyle.FlashStyle.PaintType = Klik.Windows.Forms.v1.Common.PaintTypes.Solid;
+            this.elEntryBox21.CaptionStyle.FlashStyle.SolidColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(240)))), ((int)(((byte)(191)))));
+            this.elEntryBox21.CaptionStyle.TextStyle.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.elEntryBox21.CaptionStyle.TextStyle.Text = "شروع کار";
+            this.elEntryBox21.EditBoxStyle.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.elEntryBox21.EditBoxStyle.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.elEntryBox21.EditBoxStyle.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.elEntryBox21.Location = new System.Drawing.Point(391, 329);
+            this.elEntryBox21.Name = "elEntryBox21";
+            this.elEntryBox21.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.elEntryBox21.Size = new System.Drawing.Size(177, 26);
+            this.elEntryBox21.TabIndex = 22;
+            this.elEntryBox21.Tag = "start_work";
+            this.elEntryBox21.ValidationStyle.PasswordChar = '\0';
+            this.elEntryBox21.Value = "";
+            // 
+            // elDivider18
+            // 
+            this.elDivider18.FadeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.elDivider18.FadeStyle = Klik.Windows.Forms.v1.EntryLib.DividerFadeStyles.Center;
+            this.elDivider18.LineColor = System.Drawing.Color.Red;
+            this.elDivider18.Location = new System.Drawing.Point(22, 185);
+            this.elDivider18.Name = "elDivider18";
+            this.elDivider18.Size = new System.Drawing.Size(537, 23);
+            this.elDivider18.TabIndex = 87;
+            // 
+            // elEntryBox16
+            // 
+            this.elEntryBox16.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.elEntryBox16.CaptionStyle.BorderStyle.SmoothingMode = Klik.Windows.Forms.v1.Common.SmoothingModes.AntiAlias;
+            this.elEntryBox16.CaptionStyle.CaptionSize = 60;
+            this.elEntryBox16.CaptionStyle.FlashStyle.PaintType = Klik.Windows.Forms.v1.Common.PaintTypes.Solid;
+            this.elEntryBox16.CaptionStyle.FlashStyle.SolidColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(240)))), ((int)(((byte)(191)))));
+            this.elEntryBox16.CaptionStyle.TextStyle.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.elEntryBox16.CaptionStyle.TextStyle.Text = "تلفن منزل";
+            this.elEntryBox16.EditBoxStyle.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.elEntryBox16.EditBoxStyle.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.elEntryBox16.Location = new System.Drawing.Point(392, 242);
+            this.elEntryBox16.Name = "elEntryBox16";
+            this.elEntryBox16.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.elEntryBox16.Size = new System.Drawing.Size(171, 26);
+            this.elEntryBox16.TabIndex = 16;
+            this.elEntryBox16.Tag = "tell";
+            this.elEntryBox16.ValidationStyle.PasswordChar = '\0';
+            this.elEntryBox16.Value = "";
+            // 
+            // elEntryBox17
+            // 
+            this.elEntryBox17.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.elEntryBox17.CaptionStyle.BorderStyle.SmoothingMode = Klik.Windows.Forms.v1.Common.SmoothingModes.AntiAlias;
+            this.elEntryBox17.CaptionStyle.CaptionSize = 60;
+            this.elEntryBox17.CaptionStyle.FlashStyle.PaintType = Klik.Windows.Forms.v1.Common.PaintTypes.Solid;
+            this.elEntryBox17.CaptionStyle.FlashStyle.SolidColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(240)))), ((int)(((byte)(191)))));
+            this.elEntryBox17.CaptionStyle.TextStyle.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.elEntryBox17.CaptionStyle.TextStyle.Text = "تلفن همراه";
+            this.elEntryBox17.EditBoxStyle.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.elEntryBox17.EditBoxStyle.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.elEntryBox17.Location = new System.Drawing.Point(208, 242);
+            this.elEntryBox17.Name = "elEntryBox17";
+            this.elEntryBox17.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.elEntryBox17.Size = new System.Drawing.Size(174, 26);
+            this.elEntryBox17.TabIndex = 17;
+            this.elEntryBox17.Tag = "mobile";
+            this.elEntryBox17.ValidationStyle.PasswordChar = '\0';
+            this.elEntryBox17.Value = "";
+            // 
+            // elEntryBox6
+            // 
+            this.elEntryBox6.AutoSize = false;
+            this.elEntryBox6.CaptionStyle.CaptionSize = 50;
+            this.elEntryBox6.CaptionStyle.FlashStyle.PaintType = Klik.Windows.Forms.v1.Common.PaintTypes.Solid;
+            this.elEntryBox6.CaptionStyle.FlashStyle.SolidColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(240)))), ((int)(((byte)(191)))));
+            this.elEntryBox6.CaptionStyle.TextStyle.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.elEntryBox6.CaptionStyle.TextStyle.Text = "ش . ش";
+            this.elEntryBox6.EditBoxStyle.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.elEntryBox6.EditBoxStyle.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.elEntryBox6.Location = new System.Drawing.Point(22, 72);
+            this.elEntryBox6.Name = "elEntryBox6";
+            this.elEntryBox6.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.elEntryBox6.Size = new System.Drawing.Size(174, 25);
+            this.elEntryBox6.TabIndex = 6;
+            this.elEntryBox6.Tag = "sh_num";
+            this.elEntryBox6.ValidationStyle.PasswordChar = '\0';
+            this.elEntryBox6.Value = "";
+            // 
+            // elEntryBox5
+            // 
+            this.elEntryBox5.AutoSize = false;
+            this.elEntryBox5.CaptionStyle.CaptionSize = 55;
+            this.elEntryBox5.CaptionStyle.FlashStyle.PaintType = Klik.Windows.Forms.v1.Common.PaintTypes.Solid;
+            this.elEntryBox5.CaptionStyle.FlashStyle.SolidColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(240)))), ((int)(((byte)(191)))));
+            this.elEntryBox5.CaptionStyle.TextStyle.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.elEntryBox5.CaptionStyle.TextStyle.Text = "کد ملی";
+            this.elEntryBox5.EditBoxStyle.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.elEntryBox5.EditBoxStyle.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.elEntryBox5.Location = new System.Drawing.Point(204, 72);
+            this.elEntryBox5.Name = "elEntryBox5";
+            this.elEntryBox5.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.elEntryBox5.Size = new System.Drawing.Size(177, 25);
+            this.elEntryBox5.TabIndex = 5;
+            this.elEntryBox5.Tag = "n_code";
+            this.elEntryBox5.ValidationStyle.PasswordChar = '\0';
+            this.elEntryBox5.Value = "";
+            // 
+            // elDivider19
+            // 
+            this.elDivider19.FadeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.elDivider19.FadeStyle = Klik.Windows.Forms.v1.EntryLib.DividerFadeStyles.Center;
+            this.elDivider19.LineColor = System.Drawing.Color.Red;
+            this.elDivider19.Location = new System.Drawing.Point(24, 131);
+            this.elDivider19.Name = "elDivider19";
+            this.elDivider19.Size = new System.Drawing.Size(540, 23);
+            this.elDivider19.TabIndex = 72;
+            // 
+            // elEntryBox15
+            // 
+            this.elEntryBox15.AutoSize = false;
+            this.elEntryBox15.CaptionStyle.CaptionSize = 40;
+            this.elEntryBox15.CaptionStyle.FlashStyle.PaintType = Klik.Windows.Forms.v1.Common.PaintTypes.Solid;
+            this.elEntryBox15.CaptionStyle.FlashStyle.SolidColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(240)))), ((int)(((byte)(191)))));
+            this.elEntryBox15.CaptionStyle.TextStyle.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.elEntryBox15.CaptionStyle.TextStyle.Text = "آدرس";
+            this.elEntryBox15.EditBoxStyle.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.elEntryBox15.Location = new System.Drawing.Point(25, 210);
+            this.elEntryBox15.Name = "elEntryBox15";
+            this.elEntryBox15.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.elEntryBox15.Size = new System.Drawing.Size(171, 58);
+            this.elEntryBox15.TabIndex = 15;
+            this.elEntryBox15.Tag = "address";
+            this.elEntryBox15.ValidationStyle.PasswordChar = '\0';
+            this.elEntryBox15.Value = "";
+            // 
+            // elEntryBox7
+            // 
+            this.elEntryBox7.CaptionStyle.CaptionSize = 55;
+            this.elEntryBox7.CaptionStyle.FlashStyle.PaintType = Klik.Windows.Forms.v1.Common.PaintTypes.Solid;
+            this.elEntryBox7.CaptionStyle.FlashStyle.SolidColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(240)))), ((int)(((byte)(191)))));
+            this.elEntryBox7.CaptionStyle.TextStyle.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.elEntryBox7.CaptionStyle.TextStyle.Text = "تاریخ تولد";
+            this.elEntryBox7.EditBoxStyle.BackColor = System.Drawing.Color.White;
+            this.elEntryBox7.EditBoxStyle.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.elEntryBox7.EditBoxStyle.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.elEntryBox7.EditBoxStyle.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.elEntryBox7.Location = new System.Drawing.Point(388, 103);
+            this.elEntryBox7.Name = "elEntryBox7";
+            this.elEntryBox7.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.elEntryBox7.Size = new System.Drawing.Size(175, 26);
+            this.elEntryBox7.TabIndex = 7;
+            this.elEntryBox7.Tag = "";
+            this.elEntryBox7.ValidationStyle.PasswordChar = '\0';
+            this.elEntryBox7.Value = "";
+            // 
+            // elEntryBox4
+            // 
+            this.elEntryBox4.AutoSize = false;
+            this.elEntryBox4.CaptionStyle.CaptionSize = 60;
+            this.elEntryBox4.CaptionStyle.FlashStyle.PaintType = Klik.Windows.Forms.v1.Common.PaintTypes.Solid;
+            this.elEntryBox4.CaptionStyle.FlashStyle.SolidColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(240)))), ((int)(((byte)(191)))));
+            this.elEntryBox4.CaptionStyle.TextStyle.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.elEntryBox4.CaptionStyle.TextStyle.Text = "نام پدر";
+            this.elEntryBox4.EditBoxStyle.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.elEntryBox4.EditBoxStyle.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.elEntryBox4.Location = new System.Drawing.Point(388, 72);
+            this.elEntryBox4.Name = "elEntryBox4";
+            this.elEntryBox4.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.elEntryBox4.Size = new System.Drawing.Size(175, 25);
+            this.elEntryBox4.TabIndex = 4;
+            this.elEntryBox4.Tag = "f_name";
+            this.elEntryBox4.ValidationStyle.PasswordChar = '\0';
+            this.elEntryBox4.Value = "";
+            // 
+            // elEntryBox2
+            // 
+            this.elEntryBox2.CaptionStyle.CaptionSize = 55;
+            this.elEntryBox2.CaptionStyle.FlashStyle.PaintType = Klik.Windows.Forms.v1.Common.PaintTypes.Solid;
+            this.elEntryBox2.CaptionStyle.FlashStyle.SolidColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(240)))), ((int)(((byte)(191)))));
+            this.elEntryBox2.CaptionStyle.TextStyle.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.elEntryBox2.CaptionStyle.TextStyle.Text = " نام ";
+            this.elEntryBox2.EditBoxStyle.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.elEntryBox2.EditBoxStyle.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.elEntryBox2.Location = new System.Drawing.Point(204, 40);
+            this.elEntryBox2.Name = "elEntryBox2";
+            this.elEntryBox2.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.elEntryBox2.Size = new System.Drawing.Size(177, 26);
+            this.elEntryBox2.TabIndex = 2;
+            this.elEntryBox2.Tag = "name";
+            this.elEntryBox2.ValidationStyle.PasswordChar = '\0';
+            this.elEntryBox2.Value = "";
+            // 
+            // elEntryBox3
+            // 
+            this.elEntryBox3.CaptionStyle.CaptionSize = 75;
+            this.elEntryBox3.CaptionStyle.FlashStyle.PaintType = Klik.Windows.Forms.v1.Common.PaintTypes.Solid;
+            this.elEntryBox3.CaptionStyle.FlashStyle.SolidColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(240)))), ((int)(((byte)(191)))));
+            this.elEntryBox3.CaptionStyle.TextStyle.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.elEntryBox3.CaptionStyle.TextStyle.Text = " نام خانوادگی";
+            this.elEntryBox3.EditBoxStyle.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.elEntryBox3.EditBoxStyle.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.elEntryBox3.Location = new System.Drawing.Point(21, 40);
+            this.elEntryBox3.Name = "elEntryBox3";
+            this.elEntryBox3.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.elEntryBox3.Size = new System.Drawing.Size(175, 26);
+            this.elEntryBox3.TabIndex = 3;
+            this.elEntryBox3.Tag = "family";
+            this.elEntryBox3.ValidationStyle.PasswordChar = '\0';
+            this.elEntryBox3.Value = "";
             // 
             // elRichPanel2
             // 
@@ -504,13 +1259,29 @@
             this.elRichPanel2.HeaderStyle.TextStyle.Text = "جستجو";
             this.elRichPanel2.HeaderStyle.TextStyle.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.elRichPanel2.HeaderStyle.TextStyle.TextType = Klik.Windows.Forms.v1.Common.TextTypes.DropShadow;
-            this.elRichPanel2.Location = new System.Drawing.Point(97, 28);
+            this.elRichPanel2.Location = new System.Drawing.Point(59, 61);
             this.elRichPanel2.Name = "elRichPanel2";
             this.elRichPanel2.Padding = new System.Windows.Forms.Padding(1, 24, 1, 10);
             this.elRichPanel2.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.elRichPanel2.Size = new System.Drawing.Size(757, 423);
             this.elRichPanel2.TabIndex = 109;
             this.elRichPanel2.Visible = false;
+            // 
+            // elRadioButton1
+            // 
+            this.elRadioButton1.Checked = true;
+            this.elRadioButton1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.elRadioButton1.FlashStyle.PaintType = Klik.Windows.Forms.v1.Common.PaintTypes.Solid;
+            this.elRadioButton1.FlashStyle.SolidColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(240)))), ((int)(((byte)(191)))));
+            this.elRadioButton1.ForegroundImageStyle.FadeStart = 20;
+            this.elRadioButton1.Location = new System.Drawing.Point(660, 32);
+            this.elRadioButton1.Name = "elRadioButton1";
+            this.elRadioButton1.Size = new System.Drawing.Size(86, 25);
+            this.elRadioButton1.TabIndex = 122;
+            this.elRadioButton1.Tag = "sex";
+            this.elRadioButton1.TextStyle.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.elRadioButton1.TextStyle.Text = "زن و مرد";
+            this.elRadioButton1.Value = true;
             // 
             // elButton6
             // 
@@ -520,7 +1291,7 @@
             this.elButton6.ForegroundImageStyle.ImageAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.elButton6.Location = new System.Drawing.Point(14, 32);
             this.elButton6.Name = "elButton6";
-            this.elButton6.Size = new System.Drawing.Size(175, 25);
+            this.elButton6.Size = new System.Drawing.Size(175, 27);
             this.elButton6.TabIndex = 120;
             this.elButton6.Tag = "search";
             this.elButton6.TextStyle.Font = new System.Drawing.Font("Tahoma", 9F);
@@ -724,9 +1495,9 @@
             this.insurance_checkbox.FlashStyle.PaintType = Klik.Windows.Forms.v1.Common.PaintTypes.Solid;
             this.insurance_checkbox.FlashStyle.SolidColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(240)))), ((int)(((byte)(191)))));
             this.insurance_checkbox.ForegroundImageStyle.FadeStart = 20;
-            this.insurance_checkbox.Location = new System.Drawing.Point(257, 32);
+            this.insurance_checkbox.Location = new System.Drawing.Point(259, 32);
             this.insurance_checkbox.Name = "insurance_checkbox";
-            this.insurance_checkbox.Size = new System.Drawing.Size(177, 25);
+            this.insurance_checkbox.Size = new System.Drawing.Size(177, 27);
             this.insurance_checkbox.TabIndex = 88;
             this.insurance_checkbox.Tag = "insurance";
             this.insurance_checkbox.TextStyle.Font = new System.Drawing.Font("Tahoma", 8.25F);
@@ -759,6 +1530,7 @@
             // pay_time_txt
             // 
             this.pay_time_txt.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.pay_time_txt.ButtonStyle.Buttons.Add(this.elEntryBoxButton17);
             this.pay_time_txt.CaptionStyle.BorderStyle.BorderShape.BottomRight = Klik.Windows.Forms.v1.Common.BorderShapes.Rectangle;
             this.pay_time_txt.CaptionStyle.BorderStyle.BorderShape.TopRight = Klik.Windows.Forms.v1.Common.BorderShapes.Rectangle;
             this.pay_time_txt.CaptionStyle.BorderStyle.SmoothingMode = Klik.Windows.Forms.v1.Common.SmoothingModes.AntiAlias;
@@ -782,6 +1554,7 @@
             // salary_txt
             // 
             this.salary_txt.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.salary_txt.ButtonStyle.Buttons.Add(this.elEntryBoxButton16);
             this.salary_txt.CaptionStyle.BorderStyle.BorderShape.BottomRight = Klik.Windows.Forms.v1.Common.BorderShapes.Rectangle;
             this.salary_txt.CaptionStyle.BorderStyle.BorderShape.TopRight = Klik.Windows.Forms.v1.Common.BorderShapes.Rectangle;
             this.salary_txt.CaptionStyle.BorderStyle.SmoothingMode = Klik.Windows.Forms.v1.Common.SmoothingModes.AntiAlias;
@@ -791,6 +1564,7 @@
             this.salary_txt.CaptionStyle.TextStyle.Font = new System.Drawing.Font("Tahoma", 8.25F);
             this.salary_txt.CaptionStyle.TextStyle.Text = "حقوق";
             this.salary_txt.EditBoxStyle.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.salary_txt.EditBoxStyle.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.salary_txt.Location = new System.Drawing.Point(507, 337);
             this.salary_txt.Name = "salary_txt";
             this.salary_txt.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
@@ -804,6 +1578,7 @@
             // overtime_txt
             // 
             this.overtime_txt.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.overtime_txt.ButtonStyle.Buttons.Add(this.elEntryBoxButton18);
             this.overtime_txt.CaptionStyle.BorderStyle.BorderShape.BottomRight = Klik.Windows.Forms.v1.Common.BorderShapes.Rectangle;
             this.overtime_txt.CaptionStyle.BorderStyle.BorderShape.TopRight = Klik.Windows.Forms.v1.Common.BorderShapes.Rectangle;
             this.overtime_txt.CaptionStyle.BorderStyle.SmoothingMode = Klik.Windows.Forms.v1.Common.SmoothingModes.AntiAlias;
@@ -813,6 +1588,7 @@
             this.overtime_txt.CaptionStyle.TextStyle.Font = new System.Drawing.Font("Tahoma", 8.25F);
             this.overtime_txt.CaptionStyle.TextStyle.Text = "اضافه کار";
             this.overtime_txt.EditBoxStyle.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.overtime_txt.EditBoxStyle.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.overtime_txt.Location = new System.Drawing.Point(17, 337);
             this.overtime_txt.Name = "overtime_txt";
             this.overtime_txt.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
@@ -1259,11 +2035,14 @@
             this.military_combo.EditBoxStyle.Cursor = System.Windows.Forms.Cursors.Hand;
             this.military_combo.EditBoxStyle.Font = new System.Drawing.Font("Tahoma", 8.25F);
             this.military_combo.EditBoxStyle.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            elListBoxItem1.Key = "0";
-            elListBoxItem1.Value = "بدون کارت پایان خدمت";
-            elListBoxItem2.Value = "دارای کارت پایان خدمت";
+            elListBoxItem1.Key = "-1";
+            elListBoxItem1.Value = "";
+            elListBoxItem2.Key = "0";
+            elListBoxItem2.Value = "بدون کارت پایان خدمت";
+            elListBoxItem3.Value = "دارای کارت پایان خدمت";
             this.military_combo.Items.Add(elListBoxItem1);
             this.military_combo.Items.Add(elListBoxItem2);
+            this.military_combo.Items.Add(elListBoxItem3);
             this.military_combo.Location = new System.Drawing.Point(14, 147);
             this.military_combo.Name = "military_combo";
             this.military_combo.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
@@ -1297,12 +2076,15 @@
             this.relation_combo.EditBoxStyle.Cursor = System.Windows.Forms.Cursors.Hand;
             this.relation_combo.EditBoxStyle.Font = new System.Drawing.Font("Tahoma", 8.25F);
             this.relation_combo.EditBoxStyle.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            elListBoxItem3.Key = "0";
-            elListBoxItem3.Value = "مجرد";
-            elListBoxItem4.Key = "1";
-            elListBoxItem4.Value = "متاهل";
-            this.relation_combo.Items.Add(elListBoxItem3);
+            elListBoxItem4.Key = "-1";
+            elListBoxItem4.Value = "";
+            elListBoxItem5.Key = "0";
+            elListBoxItem5.Value = "مجرد";
+            elListBoxItem6.Key = "1";
+            elListBoxItem6.Value = "متاهل";
             this.relation_combo.Items.Add(elListBoxItem4);
+            this.relation_combo.Items.Add(elListBoxItem5);
+            this.relation_combo.Items.Add(elListBoxItem6);
             this.relation_combo.Location = new System.Drawing.Point(257, 147);
             this.relation_combo.Name = "relation_combo";
             this.relation_combo.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
@@ -1404,6 +2186,7 @@
             this.father_txt.CaptionStyle.TextStyle.Font = new System.Drawing.Font("Tahoma", 8.25F);
             this.father_txt.CaptionStyle.TextStyle.Text = "نام پدر";
             this.father_txt.EditBoxStyle.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.father_txt.EditBoxStyle.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.father_txt.Location = new System.Drawing.Point(508, 116);
             this.father_txt.Name = "father_txt";
             this.father_txt.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
@@ -1423,6 +2206,7 @@
             this.name_txt.CaptionStyle.TextStyle.Font = new System.Drawing.Font("Tahoma", 8.25F);
             this.name_txt.CaptionStyle.TextStyle.Text = " نام ";
             this.name_txt.EditBoxStyle.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.name_txt.EditBoxStyle.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.name_txt.Location = new System.Drawing.Point(257, 84);
             this.name_txt.Name = "name_txt";
             this.name_txt.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
@@ -1443,6 +2227,7 @@
             this.family_txt.CaptionStyle.TextStyle.Text = " نام خانوادگی";
             this.family_txt.CaptionStyle.TextStyle.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.family_txt.EditBoxStyle.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.family_txt.EditBoxStyle.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.family_txt.Location = new System.Drawing.Point(14, 84);
             this.family_txt.Name = "family_txt";
             this.family_txt.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
@@ -1486,74 +2271,6 @@
             this.elButton3.TextStyle.Text = "جستجو";
             this.elButton3.TextStyle.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.elButton3.Click += new System.EventHandler(this.elButton3_Click);
-            // 
-            // elRichPanel4
-            // 
-            this.elRichPanel4.ContainerStyle.BackgroundStyle.GradientAngle = 45F;
-            this.elRichPanel4.Controls.Add(this.birth_txt_5);
-            this.elRichPanel4.Controls.Add(this.birth_txt_4);
-            this.elRichPanel4.Controls.Add(this.birth_txt_3);
-            this.elRichPanel4.Controls.Add(this.birth_txt_2);
-            this.elRichPanel4.Controls.Add(this.birth_txt_1);
-            this.elRichPanel4.Controls.Add(this.birth_radio_4);
-            this.elRichPanel4.Controls.Add(this.elDivider7);
-            this.elRichPanel4.Controls.Add(this.birth_radio_3);
-            this.elRichPanel4.Controls.Add(this.elDivider8);
-            this.elRichPanel4.Controls.Add(this.birth_radio_2);
-            this.elRichPanel4.Controls.Add(this.elDivider9);
-            this.elRichPanel4.Controls.Add(this.birth_radio_1);
-            this.elRichPanel4.Expanded = true;
-            this.elRichPanel4.FooterStyle.BackgroundStyle.GradientAngle = 45F;
-            this.elRichPanel4.FooterStyle.ButtonStyle.Buttons.Add(this.headerButton1);
-            this.elRichPanel4.FooterStyle.FlashStyle.GradientAngle = 0F;
-            this.elRichPanel4.FooterStyle.FlashStyle.PaintType = Klik.Windows.Forms.v1.Common.PaintTypes.Solid;
-            this.elRichPanel4.FooterStyle.FlashStyle.SolidColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(240)))), ((int)(((byte)(191)))));
-            this.elRichPanel4.FooterStyle.Height = 25;
-            this.elRichPanel4.HeaderStyle.FlashStyle.PaintType = Klik.Windows.Forms.v1.Common.PaintTypes.Solid;
-            this.elRichPanel4.HeaderStyle.FlashStyle.SolidColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(240)))), ((int)(((byte)(191)))));
-            this.elRichPanel4.HeaderStyle.Height = 24;
-            this.elRichPanel4.HeaderStyle.TextStyle.Font = new System.Drawing.Font("Tahoma", 8.25F);
-            this.elRichPanel4.HeaderStyle.TextStyle.Text = "تاریخ تولد";
-            this.elRichPanel4.HeaderStyle.TextStyle.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.elRichPanel4.HeaderStyle.TextStyle.TextType = Klik.Windows.Forms.v1.Common.TextTypes.DropShadow;
-            this.elRichPanel4.Location = new System.Drawing.Point(363, 514);
-            this.elRichPanel4.Name = "elRichPanel4";
-            this.elRichPanel4.Padding = new System.Windows.Forms.Padding(1, 24, 1, 25);
-            this.elRichPanel4.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.elRichPanel4.Size = new System.Drawing.Size(348, 241);
-            this.elRichPanel4.TabIndex = 112;
-            this.elRichPanel4.Visible = false;
-            this.elRichPanel4.FooterButtonClick += new Klik.Windows.Forms.v1.Common.KPanelControlBase.HeaderButtonClickEventHandler(this.elRichPanel4_FooterButtonClick);
-            // 
-            // birth_txt_5
-            // 
-            this.birth_txt_5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.birth_txt_5.ButtonStyle.Buttons.Add(this.elEntryBoxButton10);
-            this.birth_txt_5.CaptionStyle.BorderStyle.SmoothingMode = Klik.Windows.Forms.v1.Common.SmoothingModes.AntiAlias;
-            this.birth_txt_5.CaptionStyle.CaptionSize = 0;
-            this.birth_txt_5.CaptionStyle.FlashStyle.PaintType = Klik.Windows.Forms.v1.Common.PaintTypes.Solid;
-            this.birth_txt_5.CaptionStyle.FlashStyle.SolidColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(240)))), ((int)(((byte)(191)))));
-            this.birth_txt_5.CaptionStyle.TextStyle.Font = new System.Drawing.Font("Tahoma", 8.25F);
-            this.birth_txt_5.EditBoxStyle.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.birth_txt_5.EditBoxStyle.Font = new System.Drawing.Font("Tahoma", 8.25F);
-            this.birth_txt_5.EditBoxStyle.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.birth_txt_5.Enabled = false;
-            this.birth_txt_5.Location = new System.Drawing.Point(50, 178);
-            this.birth_txt_5.Name = "birth_txt_5";
-            this.birth_txt_5.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.birth_txt_5.Size = new System.Drawing.Size(86, 26);
-            this.birth_txt_5.TabIndex = 95;
-            this.birth_txt_5.Tag = "birth";
-            this.birth_txt_5.ValidationStyle.PasswordChar = '\0';
-            this.birth_txt_5.Value = "";
-            this.birth_txt_5.ButtonClick += new Klik.Windows.Forms.v1.EntryLib.ELEntryBox.ELEntryBoxButtonClickEventHandler(this.elEntryBox33_ButtonClick);
-            // 
-            // elEntryBoxButton10
-            // 
-            this.elEntryBoxButton10.BackgroundStyle.GradientAngle = 45F;
-            this.elEntryBoxButton10.ButtonType = Klik.Windows.Forms.v1.EntryLib.EntryBoxButtonTypes.DropDown;
-            this.elEntryBoxButton10.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.elEntryBoxButton10.DropDownControl = this.monthCalendarX1;
             // 
             // monthCalendarX1
             // 
@@ -1605,6 +2322,75 @@
             this.monthCalendarX1.WeekStartsOn = BehComponents.MonthCalendarX.WeekDays.Saturday;
             this.monthCalendarX1.SelectedDateChanged += new BehComponents.MonthCalendarX.OnSelectedDateChanged(this.monthCalendarX1_SelectedDateChanged);
             // 
+            // elRichPanel4
+            // 
+            this.elRichPanel4.ContainerStyle.BackgroundStyle.GradientAngle = 45F;
+            this.elRichPanel4.Controls.Add(this.birth_txt_5);
+            this.elRichPanel4.Controls.Add(this.birth_txt_4);
+            this.elRichPanel4.Controls.Add(this.birth_txt_3);
+            this.elRichPanel4.Controls.Add(this.birth_txt_2);
+            this.elRichPanel4.Controls.Add(this.birth_txt_1);
+            this.elRichPanel4.Controls.Add(this.birth_radio_4);
+            this.elRichPanel4.Controls.Add(this.elDivider7);
+            this.elRichPanel4.Controls.Add(this.birth_radio_3);
+            this.elRichPanel4.Controls.Add(this.elDivider8);
+            this.elRichPanel4.Controls.Add(this.birth_radio_2);
+            this.elRichPanel4.Controls.Add(this.elDivider9);
+            this.elRichPanel4.Controls.Add(this.birth_radio_1);
+            this.elRichPanel4.Expanded = true;
+            this.elRichPanel4.FooterStyle.BackgroundStyle.GradientAngle = 45F;
+            this.elRichPanel4.FooterStyle.ButtonStyle.Buttons.Add(this.headerButton1);
+            this.elRichPanel4.FooterStyle.ButtonStyle.Buttons.Add(this.headerButton3);
+            this.elRichPanel4.FooterStyle.FlashStyle.GradientAngle = 0F;
+            this.elRichPanel4.FooterStyle.FlashStyle.PaintType = Klik.Windows.Forms.v1.Common.PaintTypes.Solid;
+            this.elRichPanel4.FooterStyle.FlashStyle.SolidColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(240)))), ((int)(((byte)(191)))));
+            this.elRichPanel4.FooterStyle.Height = 25;
+            this.elRichPanel4.HeaderStyle.FlashStyle.PaintType = Klik.Windows.Forms.v1.Common.PaintTypes.Solid;
+            this.elRichPanel4.HeaderStyle.FlashStyle.SolidColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(240)))), ((int)(((byte)(191)))));
+            this.elRichPanel4.HeaderStyle.Height = 24;
+            this.elRichPanel4.HeaderStyle.TextStyle.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.elRichPanel4.HeaderStyle.TextStyle.Text = "تاریخ تولد";
+            this.elRichPanel4.HeaderStyle.TextStyle.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.elRichPanel4.HeaderStyle.TextStyle.TextType = Klik.Windows.Forms.v1.Common.TextTypes.DropShadow;
+            this.elRichPanel4.Location = new System.Drawing.Point(363, 514);
+            this.elRichPanel4.Name = "elRichPanel4";
+            this.elRichPanel4.Padding = new System.Windows.Forms.Padding(1, 24, 1, 25);
+            this.elRichPanel4.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.elRichPanel4.Size = new System.Drawing.Size(348, 241);
+            this.elRichPanel4.TabIndex = 112;
+            this.elRichPanel4.Visible = false;
+            this.elRichPanel4.FooterButtonClick += new Klik.Windows.Forms.v1.Common.KPanelControlBase.HeaderButtonClickEventHandler(this.elRichPanel4_FooterButtonClick);
+            // 
+            // birth_txt_5
+            // 
+            this.birth_txt_5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.birth_txt_5.ButtonStyle.Buttons.Add(this.elEntryBoxButton10);
+            this.birth_txt_5.CaptionStyle.BorderStyle.SmoothingMode = Klik.Windows.Forms.v1.Common.SmoothingModes.AntiAlias;
+            this.birth_txt_5.CaptionStyle.CaptionSize = 0;
+            this.birth_txt_5.CaptionStyle.FlashStyle.PaintType = Klik.Windows.Forms.v1.Common.PaintTypes.Solid;
+            this.birth_txt_5.CaptionStyle.FlashStyle.SolidColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(240)))), ((int)(((byte)(191)))));
+            this.birth_txt_5.CaptionStyle.TextStyle.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.birth_txt_5.EditBoxStyle.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.birth_txt_5.EditBoxStyle.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.birth_txt_5.EditBoxStyle.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.birth_txt_5.Enabled = false;
+            this.birth_txt_5.Location = new System.Drawing.Point(50, 178);
+            this.birth_txt_5.Name = "birth_txt_5";
+            this.birth_txt_5.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.birth_txt_5.Size = new System.Drawing.Size(86, 26);
+            this.birth_txt_5.TabIndex = 95;
+            this.birth_txt_5.Tag = "birth";
+            this.birth_txt_5.ValidationStyle.PasswordChar = '\0';
+            this.birth_txt_5.Value = "";
+            this.birth_txt_5.ButtonClick += new Klik.Windows.Forms.v1.EntryLib.ELEntryBox.ELEntryBoxButtonClickEventHandler(this.elEntryBox33_ButtonClick);
+            // 
+            // elEntryBoxButton10
+            // 
+            this.elEntryBoxButton10.BackgroundStyle.GradientAngle = 45F;
+            this.elEntryBoxButton10.ButtonType = Klik.Windows.Forms.v1.EntryLib.EntryBoxButtonTypes.DropDown;
+            this.elEntryBoxButton10.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.elEntryBoxButton10.DropDownControl = this.monthCalendarX1;
+            // 
             // birth_txt_4
             // 
             this.birth_txt_4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
@@ -1638,7 +2424,7 @@
             // birth_txt_3
             // 
             this.birth_txt_3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.birth_txt_3.ButtonStyle.Buttons.Add(this.elEntryBoxButton8);
+            this.birth_txt_3.ButtonStyle.Buttons.Add(this.elEntryBoxButton4);
             this.birth_txt_3.CaptionStyle.BorderStyle.SmoothingMode = Klik.Windows.Forms.v1.Common.SmoothingModes.AntiAlias;
             this.birth_txt_3.CaptionStyle.CaptionSize = 0;
             this.birth_txt_3.CaptionStyle.FlashStyle.PaintType = Klik.Windows.Forms.v1.Common.PaintTypes.Solid;
@@ -1658,17 +2444,10 @@
             this.birth_txt_3.Value = "";
             this.birth_txt_3.ButtonClick += new Klik.Windows.Forms.v1.EntryLib.ELEntryBox.ELEntryBoxButtonClickEventHandler(this.elEntryBox33_ButtonClick);
             // 
-            // elEntryBoxButton8
-            // 
-            this.elEntryBoxButton8.BackgroundStyle.GradientAngle = 45F;
-            this.elEntryBoxButton8.ButtonType = Klik.Windows.Forms.v1.EntryLib.EntryBoxButtonTypes.DropDown;
-            this.elEntryBoxButton8.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.elEntryBoxButton8.DropDownControl = this.monthCalendarX1;
-            // 
             // birth_txt_2
             // 
             this.birth_txt_2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.birth_txt_2.ButtonStyle.Buttons.Add(this.elEntryBoxButton7);
+            this.birth_txt_2.ButtonStyle.Buttons.Add(this.elEntryBoxButton5);
             this.birth_txt_2.CaptionStyle.BorderStyle.SmoothingMode = Klik.Windows.Forms.v1.Common.SmoothingModes.AntiAlias;
             this.birth_txt_2.CaptionStyle.CaptionSize = 0;
             this.birth_txt_2.CaptionStyle.FlashStyle.PaintType = Klik.Windows.Forms.v1.Common.PaintTypes.Solid;
@@ -1687,13 +2466,6 @@
             this.birth_txt_2.ValidationStyle.PasswordChar = '\0';
             this.birth_txt_2.Value = "";
             this.birth_txt_2.ButtonClick += new Klik.Windows.Forms.v1.EntryLib.ELEntryBox.ELEntryBoxButtonClickEventHandler(this.elEntryBox33_ButtonClick);
-            // 
-            // elEntryBoxButton7
-            // 
-            this.elEntryBoxButton7.BackgroundStyle.GradientAngle = 45F;
-            this.elEntryBoxButton7.ButtonType = Klik.Windows.Forms.v1.EntryLib.EntryBoxButtonTypes.DropDown;
-            this.elEntryBoxButton7.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.elEntryBoxButton7.DropDownControl = this.monthCalendarX1;
             // 
             // birth_txt_1
             // 
@@ -1716,13 +2488,6 @@
             this.birth_txt_1.ValidationStyle.PasswordChar = '\0';
             this.birth_txt_1.Value = "";
             this.birth_txt_1.ButtonClick += new Klik.Windows.Forms.v1.EntryLib.ELEntryBox.ELEntryBoxButtonClickEventHandler(this.elEntryBox33_ButtonClick);
-            // 
-            // elEntryBoxButton6
-            // 
-            this.elEntryBoxButton6.BackgroundStyle.GradientAngle = 45F;
-            this.elEntryBoxButton6.ButtonType = Klik.Windows.Forms.v1.EntryLib.EntryBoxButtonTypes.DropDown;
-            this.elEntryBoxButton6.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.elEntryBoxButton6.DropDownControl = this.monthCalendarX1;
             // 
             // birth_radio_4
             // 
@@ -1821,6 +2586,7 @@
             // headerButton1
             // 
             this.headerButton1.BackgroundStyle.GradientAngle = 45F;
+            this.headerButton1.BorderSmoothingMode = Klik.Windows.Forms.v1.Common.SmoothingModes.AntiAlias;
             this.headerButton1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.headerButton1.Text = "اعمال تغییرات";
             this.headerButton1.TextStyle.Font = new System.Drawing.Font("Tahoma", 8.25F);
@@ -1845,6 +2611,7 @@
             this.elRichPanel3.Expanded = true;
             this.elRichPanel3.FooterStyle.BackgroundStyle.GradientAngle = 45F;
             this.elRichPanel3.FooterStyle.ButtonStyle.Buttons.Add(this.headerButton1);
+            this.elRichPanel3.FooterStyle.ButtonStyle.Buttons.Add(this.headerButton5);
             this.elRichPanel3.FooterStyle.FlashStyle.GradientAngle = 0F;
             this.elRichPanel3.FooterStyle.FlashStyle.PaintType = Klik.Windows.Forms.v1.Common.PaintTypes.Solid;
             this.elRichPanel3.FooterStyle.FlashStyle.SolidColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(240)))), ((int)(((byte)(191)))));
@@ -1856,7 +2623,7 @@
             this.elRichPanel3.HeaderStyle.TextStyle.Text = "حقوق";
             this.elRichPanel3.HeaderStyle.TextStyle.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.elRichPanel3.HeaderStyle.TextStyle.TextType = Klik.Windows.Forms.v1.Common.TextTypes.DropShadow;
-            this.elRichPanel3.Location = new System.Drawing.Point(1012, 222);
+            this.elRichPanel3.Location = new System.Drawing.Point(1012, 236);
             this.elRichPanel3.Name = "elRichPanel3";
             this.elRichPanel3.Padding = new System.Windows.Forms.Padding(1, 24, 1, 25);
             this.elRichPanel3.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
@@ -2081,6 +2848,7 @@
             this.elRichPanel5.Expanded = true;
             this.elRichPanel5.FooterStyle.BackgroundStyle.GradientAngle = 45F;
             this.elRichPanel5.FooterStyle.ButtonStyle.Buttons.Add(this.headerButton1);
+            this.elRichPanel5.FooterStyle.ButtonStyle.Buttons.Add(this.headerButton4);
             this.elRichPanel5.FooterStyle.FlashStyle.GradientAngle = 0F;
             this.elRichPanel5.FooterStyle.FlashStyle.PaintType = Klik.Windows.Forms.v1.Common.PaintTypes.Solid;
             this.elRichPanel5.FooterStyle.FlashStyle.SolidColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(240)))), ((int)(((byte)(191)))));
@@ -2104,7 +2872,7 @@
             // payTime_txt_5
             // 
             this.payTime_txt_5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.payTime_txt_5.ButtonStyle.Buttons.Add(this.elEntryBoxButton5);
+            this.payTime_txt_5.ButtonStyle.Buttons.Add(this.elEntryBoxButton14);
             this.payTime_txt_5.CaptionStyle.BorderStyle.SmoothingMode = Klik.Windows.Forms.v1.Common.SmoothingModes.AntiAlias;
             this.payTime_txt_5.CaptionStyle.CaptionSize = 0;
             this.payTime_txt_5.CaptionStyle.FlashStyle.PaintType = Klik.Windows.Forms.v1.Common.PaintTypes.Solid;
@@ -2123,17 +2891,10 @@
             this.payTime_txt_5.Value = "";
             this.payTime_txt_5.ButtonClick += new Klik.Windows.Forms.v1.EntryLib.ELEntryBox.ELEntryBoxButtonClickEventHandler(this.elEntryBox35_ButtonClick);
             // 
-            // elEntryBoxButton5
-            // 
-            this.elEntryBoxButton5.BackgroundStyle.GradientAngle = 45F;
-            this.elEntryBoxButton5.ButtonType = Klik.Windows.Forms.v1.EntryLib.EntryBoxButtonTypes.DropDown;
-            this.elEntryBoxButton5.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.elEntryBoxButton5.DropDownControl = this.monthCalendarX1;
-            // 
             // payTime_txt_4
             // 
             this.payTime_txt_4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.payTime_txt_4.ButtonStyle.Buttons.Add(this.elEntryBoxButton4);
+            this.payTime_txt_4.ButtonStyle.Buttons.Add(this.elEntryBoxButton13);
             this.payTime_txt_4.CaptionStyle.BorderStyle.SmoothingMode = Klik.Windows.Forms.v1.Common.SmoothingModes.AntiAlias;
             this.payTime_txt_4.CaptionStyle.CaptionSize = 0;
             this.payTime_txt_4.CaptionStyle.FlashStyle.PaintType = Klik.Windows.Forms.v1.Common.PaintTypes.Solid;
@@ -2152,17 +2913,10 @@
             this.payTime_txt_4.Value = "";
             this.payTime_txt_4.ButtonClick += new Klik.Windows.Forms.v1.EntryLib.ELEntryBox.ELEntryBoxButtonClickEventHandler(this.elEntryBox35_ButtonClick);
             // 
-            // elEntryBoxButton4
-            // 
-            this.elEntryBoxButton4.BackgroundStyle.GradientAngle = 45F;
-            this.elEntryBoxButton4.ButtonType = Klik.Windows.Forms.v1.EntryLib.EntryBoxButtonTypes.DropDown;
-            this.elEntryBoxButton4.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.elEntryBoxButton4.DropDownControl = this.monthCalendarX1;
-            // 
             // payTime_txt_3
             // 
             this.payTime_txt_3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.payTime_txt_3.ButtonStyle.Buttons.Add(this.elEntryBoxButton3);
+            this.payTime_txt_3.ButtonStyle.Buttons.Add(this.elEntryBoxButton8);
             this.payTime_txt_3.CaptionStyle.BorderStyle.SmoothingMode = Klik.Windows.Forms.v1.Common.SmoothingModes.AntiAlias;
             this.payTime_txt_3.CaptionStyle.CaptionSize = 0;
             this.payTime_txt_3.CaptionStyle.FlashStyle.PaintType = Klik.Windows.Forms.v1.Common.PaintTypes.Solid;
@@ -2181,17 +2935,10 @@
             this.payTime_txt_3.Value = "";
             this.payTime_txt_3.ButtonClick += new Klik.Windows.Forms.v1.EntryLib.ELEntryBox.ELEntryBoxButtonClickEventHandler(this.elEntryBox35_ButtonClick);
             // 
-            // elEntryBoxButton3
-            // 
-            this.elEntryBoxButton3.BackgroundStyle.GradientAngle = 45F;
-            this.elEntryBoxButton3.ButtonType = Klik.Windows.Forms.v1.EntryLib.EntryBoxButtonTypes.DropDown;
-            this.elEntryBoxButton3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.elEntryBoxButton3.DropDownControl = this.monthCalendarX1;
-            // 
             // payTime_txt_2
             // 
             this.payTime_txt_2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.payTime_txt_2.ButtonStyle.Buttons.Add(this.elEntryBoxButton2);
+            this.payTime_txt_2.ButtonStyle.Buttons.Add(this.elEntryBoxButton7);
             this.payTime_txt_2.CaptionStyle.BorderStyle.SmoothingMode = Klik.Windows.Forms.v1.Common.SmoothingModes.AntiAlias;
             this.payTime_txt_2.CaptionStyle.CaptionSize = 0;
             this.payTime_txt_2.CaptionStyle.FlashStyle.PaintType = Klik.Windows.Forms.v1.Common.PaintTypes.Solid;
@@ -2210,17 +2957,10 @@
             this.payTime_txt_2.Value = "";
             this.payTime_txt_2.ButtonClick += new Klik.Windows.Forms.v1.EntryLib.ELEntryBox.ELEntryBoxButtonClickEventHandler(this.elEntryBox35_ButtonClick);
             // 
-            // elEntryBoxButton2
-            // 
-            this.elEntryBoxButton2.BackgroundStyle.GradientAngle = 45F;
-            this.elEntryBoxButton2.ButtonType = Klik.Windows.Forms.v1.EntryLib.EntryBoxButtonTypes.DropDown;
-            this.elEntryBoxButton2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.elEntryBoxButton2.DropDownControl = this.monthCalendarX1;
-            // 
             // payTime_txt_1
             // 
             this.payTime_txt_1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.payTime_txt_1.ButtonStyle.Buttons.Add(this.elEntryBoxButton1);
+            this.payTime_txt_1.ButtonStyle.Buttons.Add(this.elEntryBoxButton15);
             this.payTime_txt_1.CaptionStyle.BorderStyle.SmoothingMode = Klik.Windows.Forms.v1.Common.SmoothingModes.AntiAlias;
             this.payTime_txt_1.CaptionStyle.CaptionSize = 0;
             this.payTime_txt_1.CaptionStyle.FlashStyle.PaintType = Klik.Windows.Forms.v1.Common.PaintTypes.Solid;
@@ -2237,13 +2977,6 @@
             this.payTime_txt_1.ValidationStyle.PasswordChar = '\0';
             this.payTime_txt_1.Value = "";
             this.payTime_txt_1.ButtonClick += new Klik.Windows.Forms.v1.EntryLib.ELEntryBox.ELEntryBoxButtonClickEventHandler(this.elEntryBox35_ButtonClick);
-            // 
-            // elEntryBoxButton1
-            // 
-            this.elEntryBoxButton1.BackgroundStyle.GradientAngle = 45F;
-            this.elEntryBoxButton1.ButtonType = Klik.Windows.Forms.v1.EntryLib.EntryBoxButtonTypes.DropDown;
-            this.elEntryBoxButton1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.elEntryBoxButton1.DropDownControl = this.monthCalendarX1;
             // 
             // payTime_radio_4
             // 
@@ -2357,6 +3090,7 @@
             this.elRichPanel6.Expanded = true;
             this.elRichPanel6.FooterStyle.BackgroundStyle.GradientAngle = 45F;
             this.elRichPanel6.FooterStyle.ButtonStyle.Buttons.Add(this.headerButton1);
+            this.elRichPanel6.FooterStyle.ButtonStyle.Buttons.Add(this.headerButton2);
             this.elRichPanel6.FooterStyle.FlashStyle.GradientAngle = 0F;
             this.elRichPanel6.FooterStyle.FlashStyle.PaintType = Klik.Windows.Forms.v1.Common.PaintTypes.Solid;
             this.elRichPanel6.FooterStyle.FlashStyle.SolidColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(240)))), ((int)(((byte)(191)))));
@@ -2584,6 +3318,111 @@
             this.overtime_radio_1.Value = true;
             this.overtime_radio_1.CheckedChanged += new System.EventHandler(this.overtime_radio_1_CheckedChanged);
             // 
+            // elEntryBoxButton1
+            // 
+            this.elEntryBoxButton1.BackgroundStyle.GradientAngle = 45F;
+            this.elEntryBoxButton1.Text = "تومان";
+            this.elEntryBoxButton1.TextStyle.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.elEntryBoxButton1.TextStyle.Text = "تومان";
+            // 
+            // elEntryBoxButton2
+            // 
+            this.elEntryBoxButton2.BackgroundStyle.GradientAngle = 45F;
+            this.elEntryBoxButton2.Text = "هر ماه";
+            this.elEntryBoxButton2.TextStyle.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.elEntryBoxButton2.TextStyle.Text = "هر ماه";
+            // 
+            // elEntryBoxButton3
+            // 
+            this.elEntryBoxButton3.BackgroundStyle.GradientAngle = 45F;
+            this.elEntryBoxButton3.Text = "هر ساعت";
+            this.elEntryBoxButton3.TextStyle.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.elEntryBoxButton3.TextStyle.Text = "هر ساعت";
+            // 
+            // elEntryBoxButton4
+            // 
+            this.elEntryBoxButton4.BackgroundStyle.GradientAngle = 45F;
+            this.elEntryBoxButton4.ButtonType = Klik.Windows.Forms.v1.EntryLib.EntryBoxButtonTypes.DropDown;
+            this.elEntryBoxButton4.DropDownControl = this.monthCalendarX1;
+            // 
+            // elEntryBoxButton5
+            // 
+            this.elEntryBoxButton5.BackgroundStyle.GradientAngle = 45F;
+            this.elEntryBoxButton5.ButtonType = Klik.Windows.Forms.v1.EntryLib.EntryBoxButtonTypes.DropDown;
+            this.elEntryBoxButton5.DropDownControl = this.monthCalendarX1;
+            // 
+            // elEntryBoxButton6
+            // 
+            this.elEntryBoxButton6.BackgroundStyle.GradientAngle = 45F;
+            this.elEntryBoxButton6.ButtonType = Klik.Windows.Forms.v1.EntryLib.EntryBoxButtonTypes.DropDown;
+            this.elEntryBoxButton6.DropDownControl = this.monthCalendarX1;
+            // 
+            // elEntryBoxButton7
+            // 
+            this.elEntryBoxButton7.BackgroundStyle.GradientAngle = 45F;
+            this.elEntryBoxButton7.ButtonType = Klik.Windows.Forms.v1.EntryLib.EntryBoxButtonTypes.DropDown;
+            this.elEntryBoxButton7.DropDownControl = this.monthCalendarX1;
+            // 
+            // elEntryBoxButton8
+            // 
+            this.elEntryBoxButton8.BackgroundStyle.GradientAngle = 45F;
+            this.elEntryBoxButton8.ButtonType = Klik.Windows.Forms.v1.EntryLib.EntryBoxButtonTypes.DropDown;
+            this.elEntryBoxButton8.DropDownControl = this.monthCalendarX1;
+            // 
+            // elEntryBoxButton13
+            // 
+            this.elEntryBoxButton13.BackgroundStyle.GradientAngle = 45F;
+            this.elEntryBoxButton13.ButtonType = Klik.Windows.Forms.v1.EntryLib.EntryBoxButtonTypes.DropDown;
+            this.elEntryBoxButton13.DropDownControl = this.monthCalendarX1;
+            // 
+            // elEntryBoxButton14
+            // 
+            this.elEntryBoxButton14.BackgroundStyle.GradientAngle = 45F;
+            this.elEntryBoxButton14.ButtonType = Klik.Windows.Forms.v1.EntryLib.EntryBoxButtonTypes.DropDown;
+            this.elEntryBoxButton14.DropDownControl = this.monthCalendarX1;
+            // 
+            // elEntryBoxButton15
+            // 
+            this.elEntryBoxButton15.BackgroundStyle.GradientAngle = 45F;
+            this.elEntryBoxButton15.ButtonType = Klik.Windows.Forms.v1.EntryLib.EntryBoxButtonTypes.DropDown;
+            this.elEntryBoxButton15.DropDownControl = this.monthCalendarX1;
+            // 
+            // headerButton2
+            // 
+            this.headerButton2.BackgroundStyle.GradientAngle = 45F;
+            this.headerButton2.BorderType = Klik.Windows.Forms.v1.Common.BorderTypes.Dash;
+            this.headerButton2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.headerButton2.Text = "خالی کردن فرم";
+            this.headerButton2.TextStyle.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.headerButton2.TextStyle.Text = "خالی کردن فرم";
+            // 
+            // headerButton3
+            // 
+            this.headerButton3.BackgroundStyle.GradientAngle = 45F;
+            this.headerButton3.BorderType = Klik.Windows.Forms.v1.Common.BorderTypes.Dash;
+            this.headerButton3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.headerButton3.Text = "خالی کردن فرم";
+            this.headerButton3.TextStyle.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.headerButton3.TextStyle.Text = "خالی کردن فرم";
+            // 
+            // headerButton4
+            // 
+            this.headerButton4.BackgroundStyle.GradientAngle = 45F;
+            this.headerButton4.BorderType = Klik.Windows.Forms.v1.Common.BorderTypes.Dash;
+            this.headerButton4.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.headerButton4.Text = "خالی کردن فرم";
+            this.headerButton4.TextStyle.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.headerButton4.TextStyle.Text = "خالی کردن فرم";
+            // 
+            // headerButton5
+            // 
+            this.headerButton5.BackgroundStyle.GradientAngle = 45F;
+            this.headerButton5.BorderType = Klik.Windows.Forms.v1.Common.BorderTypes.Dash;
+            this.headerButton5.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.headerButton5.Text = "خالی کردن فرم";
+            this.headerButton5.TextStyle.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.headerButton5.TextStyle.Text = "خالی کردن فرم";
+            // 
             // time_picker1
             // 
             this.time_picker1.BackColor = System.Drawing.Color.Transparent;
@@ -2608,28 +3447,33 @@
             this.elEntryBoxButton11.Cursor = System.Windows.Forms.Cursors.Hand;
             this.elEntryBoxButton11.DropDownControl = this.time_picker1;
             // 
-            // elRadioButton1
+            // elEntryBoxButton16
             // 
-            this.elRadioButton1.Checked = true;
-            this.elRadioButton1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.elRadioButton1.FlashStyle.PaintType = Klik.Windows.Forms.v1.Common.PaintTypes.Solid;
-            this.elRadioButton1.FlashStyle.SolidColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(240)))), ((int)(((byte)(191)))));
-            this.elRadioButton1.ForegroundImageStyle.FadeStart = 20;
-            this.elRadioButton1.Location = new System.Drawing.Point(660, 32);
-            this.elRadioButton1.Name = "elRadioButton1";
-            this.elRadioButton1.Size = new System.Drawing.Size(86, 25);
-            this.elRadioButton1.TabIndex = 122;
-            this.elRadioButton1.Tag = "sex";
-            this.elRadioButton1.TextStyle.Font = new System.Drawing.Font("Tahoma", 8.25F);
-            this.elRadioButton1.TextStyle.Text = "زن و مرد";
-            this.elRadioButton1.Value = true;
+            this.elEntryBoxButton16.BackgroundStyle.GradientAngle = 45F;
+            this.elEntryBoxButton16.Text = "تومان";
+            this.elEntryBoxButton16.TextStyle.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.elEntryBoxButton16.TextStyle.Text = "تومان";
+            // 
+            // elEntryBoxButton17
+            // 
+            this.elEntryBoxButton17.BackgroundStyle.GradientAngle = 45F;
+            this.elEntryBoxButton17.Text = "هر ماه";
+            this.elEntryBoxButton17.TextStyle.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.elEntryBoxButton17.TextStyle.Text = "هر ماه";
+            // 
+            // elEntryBoxButton18
+            // 
+            this.elEntryBoxButton18.BackgroundStyle.GradientAngle = 45F;
+            this.elEntryBoxButton18.Text = "هر ساعت";
+            this.elEntryBoxButton18.TextStyle.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.elEntryBoxButton18.TextStyle.Text = "هر ساعت";
             // 
             // Clerk_Show
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Almas.Properties.Resources.BG2;
-            this.ClientSize = new System.Drawing.Size(964, 498);
+            this.ClientSize = new System.Drawing.Size(962, 495);
             this.Controls.Add(this.elRichPanel6);
             this.Controls.Add(this.elRichPanel4);
             this.Controls.Add(this.time_picker1);
@@ -2648,8 +3492,45 @@
             ((System.ComponentModel.ISupportInitialize)(this.DataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.elRichPanel1)).EndInit();
             this.elRichPanel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.elRichPanel7)).EndInit();
+            this.elRichPanel7.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.elEntryBox14)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.elEntryBox13)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.elEntryBox12)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.elEntryBox11)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.elEntryBox10)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.elEntryBox9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.elEntryBox8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.elButton8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.elButton7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.elRichPanel8)).EndInit();
+            this.elRichPanel8.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.elEntryBox23)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.elRadioButton2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.elRadioButton3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.elEntryBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.elCheckBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.elEntryBox22)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.elEntryBox19)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.elEntryBox18)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.elEntryBox20)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.elDivider17)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.elEntryBox21)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.elDivider18)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.elEntryBox16)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.elEntryBox17)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.elEntryBox6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.elEntryBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.elDivider19)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.elEntryBox15)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.elEntryBox7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.elEntryBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.elEntryBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.elEntryBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.elRichPanel2)).EndInit();
             this.elRichPanel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.elRadioButton1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.elButton6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.illness_combo)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.woman_radio)).EndInit();
@@ -2752,7 +3633,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.overtime_radio_2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.elDivider16)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.overtime_radio_1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.elRadioButton1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -2851,9 +3731,7 @@
         private Klik.Windows.Forms.v1.EntryLib.ELEntryBox payTime_txt_4;
         private Klik.Windows.Forms.v1.EntryLib.ELEntryBox payTime_txt_3;
         private Klik.Windows.Forms.v1.EntryLib.ELEntryBox payTime_txt_2;
-        private Klik.Windows.Forms.v1.EntryLib.ELEntryBoxButton elEntryBoxButton2;
         private Klik.Windows.Forms.v1.EntryLib.ELEntryBox payTime_txt_1;
-        private Klik.Windows.Forms.v1.EntryLib.ELEntryBoxButton elEntryBoxButton1;
         private Klik.Windows.Forms.v1.EntryLib.ELRadioButton payTime_radio_4;
         private Klik.Windows.Forms.v1.EntryLib.ELDivider elDivider11;
         private Klik.Windows.Forms.v1.EntryLib.ELRadioButton payTime_radio_3;
@@ -2865,12 +3743,6 @@
         private time_picker time_picker1;
         private Klik.Windows.Forms.v1.EntryLib.ELEntryBoxButton elEntryBoxButton10;
         private Klik.Windows.Forms.v1.EntryLib.ELEntryBoxButton elEntryBoxButton9;
-        private Klik.Windows.Forms.v1.EntryLib.ELEntryBoxButton elEntryBoxButton8;
-        private Klik.Windows.Forms.v1.EntryLib.ELEntryBoxButton elEntryBoxButton7;
-        private Klik.Windows.Forms.v1.EntryLib.ELEntryBoxButton elEntryBoxButton6;
-        private Klik.Windows.Forms.v1.EntryLib.ELEntryBoxButton elEntryBoxButton5;
-        private Klik.Windows.Forms.v1.EntryLib.ELEntryBoxButton elEntryBoxButton4;
-        private Klik.Windows.Forms.v1.EntryLib.ELEntryBoxButton elEntryBoxButton3;
         private Klik.Windows.Forms.v1.EntryLib.ELRichPanel elRichPanel6;
         private Klik.Windows.Forms.v1.EntryLib.ELEntryBox overtime_txt_2;
         private Klik.Windows.Forms.v1.EntryLib.ELEntryBox overtime_txt_5;
@@ -2887,5 +3759,57 @@
         private Klik.Windows.Forms.v1.EntryLib.ELEntryBoxButton elEntryBoxButton12;
         private Klik.Windows.Forms.v1.EntryLib.ELEntryBoxButton elEntryBoxButton11;
         private Klik.Windows.Forms.v1.EntryLib.ELRadioButton elRadioButton1;
+        private Klik.Windows.Forms.v1.EntryLib.ELRichPanel elRichPanel7;
+        private Klik.Windows.Forms.v1.EntryLib.ELEntryBox elEntryBox1;
+        private Klik.Windows.Forms.v1.EntryLib.ELCheckBox elCheckBox1;
+        private Klik.Windows.Forms.v1.EntryLib.ELEntryBox elEntryBox22;
+        private Klik.Windows.Forms.v1.EntryLib.ELEntryBox elEntryBox19;
+        private Klik.Windows.Forms.v1.EntryLib.ELEntryBox elEntryBox18;
+        private Klik.Windows.Forms.v1.EntryLib.ELEntryBox elEntryBox20;
+        private Klik.Windows.Forms.v1.EntryLib.ELDivider elDivider17;
+        private Klik.Windows.Forms.v1.EntryLib.ELEntryBox elEntryBox21;
+        private Klik.Windows.Forms.v1.EntryLib.ELDivider elDivider18;
+        private Klik.Windows.Forms.v1.EntryLib.ELEntryBox elEntryBox16;
+        private Klik.Windows.Forms.v1.EntryLib.ELEntryBox elEntryBox17;
+        private Klik.Windows.Forms.v1.EntryLib.ELEntryBox elEntryBox6;
+        private Klik.Windows.Forms.v1.EntryLib.ELEntryBox elEntryBox5;
+        private Klik.Windows.Forms.v1.EntryLib.ELDivider elDivider19;
+        private Klik.Windows.Forms.v1.EntryLib.ELEntryBox elEntryBox15;
+        private Klik.Windows.Forms.v1.EntryLib.ELEntryBox elEntryBox7;
+        private Klik.Windows.Forms.v1.EntryLib.ELEntryBox elEntryBox4;
+        private Klik.Windows.Forms.v1.EntryLib.ELEntryBox elEntryBox2;
+        private Klik.Windows.Forms.v1.EntryLib.ELEntryBox elEntryBox3;
+        private Klik.Windows.Forms.v1.EntryLib.ELComboBox elEntryBox23;
+        private Klik.Windows.Forms.v1.EntryLib.ELRichPanel elRichPanel8;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private Klik.Windows.Forms.v1.EntryLib.ELRadioButton elRadioButton2;
+        private Klik.Windows.Forms.v1.EntryLib.ELRadioButton elRadioButton3;
+        private Klik.Windows.Forms.v1.EntryLib.ELButton elButton8;
+        private Klik.Windows.Forms.v1.EntryLib.ELButton elButton7;
+        private Klik.Windows.Forms.v1.EntryLib.ELEntryBox elEntryBox9;
+        private Klik.Windows.Forms.v1.EntryLib.ELEntryBox elEntryBox8;
+        private Klik.Windows.Forms.v1.EntryLib.ELEntryBox elEntryBox14;
+        private Klik.Windows.Forms.v1.EntryLib.ELEntryBox elEntryBox13;
+        private Klik.Windows.Forms.v1.EntryLib.ELEntryBox elEntryBox12;
+        private Klik.Windows.Forms.v1.EntryLib.ELEntryBox elEntryBox11;
+        private Klik.Windows.Forms.v1.EntryLib.ELEntryBox elEntryBox10;
+        private Klik.Windows.Forms.v1.EntryLib.ELEntryBoxButton elEntryBoxButton2;
+        private Klik.Windows.Forms.v1.EntryLib.ELEntryBoxButton elEntryBoxButton1;
+        private Klik.Windows.Forms.v1.EntryLib.ELEntryBoxButton elEntryBoxButton3;
+        private Klik.Windows.Forms.v1.EntryLib.ELEntryBoxButton elEntryBoxButton4;
+        private Klik.Windows.Forms.v1.EntryLib.ELEntryBoxButton elEntryBoxButton5;
+        private Klik.Windows.Forms.v1.EntryLib.ELEntryBoxButton elEntryBoxButton6;
+        private Klik.Windows.Forms.v1.EntryLib.ELEntryBoxButton elEntryBoxButton14;
+        private Klik.Windows.Forms.v1.EntryLib.ELEntryBoxButton elEntryBoxButton13;
+        private Klik.Windows.Forms.v1.EntryLib.ELEntryBoxButton elEntryBoxButton8;
+        private Klik.Windows.Forms.v1.EntryLib.ELEntryBoxButton elEntryBoxButton7;
+        private Klik.Windows.Forms.v1.EntryLib.ELEntryBoxButton elEntryBoxButton15;
+        private Klik.Windows.Forms.v1.Common.HeaderButton headerButton3;
+        private Klik.Windows.Forms.v1.Common.HeaderButton headerButton5;
+        private Klik.Windows.Forms.v1.Common.HeaderButton headerButton4;
+        private Klik.Windows.Forms.v1.Common.HeaderButton headerButton2;
+        private Klik.Windows.Forms.v1.EntryLib.ELEntryBoxButton elEntryBoxButton17;
+        private Klik.Windows.Forms.v1.EntryLib.ELEntryBoxButton elEntryBoxButton16;
+        private Klik.Windows.Forms.v1.EntryLib.ELEntryBoxButton elEntryBoxButton18;
     }
 }

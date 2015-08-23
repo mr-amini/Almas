@@ -14,7 +14,7 @@ namespace Almas
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Clerk_Show());
+            Application.Run(new Clerk());
         }
     }
 }

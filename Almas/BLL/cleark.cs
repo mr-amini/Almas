@@ -26,13 +26,19 @@ namespace Almas.BLL
 
         }
 
-        public bool Insert(string code, string name, string family, string f_name, string n_code, string sh_num, string sex, string bith_date, string relation, string military, string education, string religion_pri, string religion_sec, string united, string city, string address, string tell,  string mobile ,string salary , string pay_time, string overtime,byte insurance, string start_work, string end_work, string disease)
+        public bool Insert(string code, string name, string family, string f_name, string n_code, string sh_num, byte sex, string bith_date, byte relation, byte military, int education, int religion_pri, int religion_sec, int united, int city, string address, string tell, string mobile, string salary, int pay_time, string overtime, byte insurance, string start_work, string end_work, string disease)
         {
             string res = _DA.Do_Command_Execute_None("insert into clerk values('" + code.Trim() + "','" + name.Trim() + "','" + family.Trim() + "','" + f_name.Trim() +
                          "','" + n_code +  "','" + sh_num + "','" + sex + "','" + bith_date + "','" + relation + "','" + military +
                          "','" + education + "','" + religion_pri + "','" + religion_sec + "','" + united + "','" + city +
                          "','" + address.Trim() + "','" + tell.Trim() + "','" + mobile + "','" + salary + "','" + pay_time + "','" + overtime + 
                          "','" + insurance + "','" + start_work + "','" + end_work + "','" + disease + "')",true);
+            return res == "1" ? true : false;
+        }
+
+        public bool Delete(string code)
+        {
+            string res = _DA.Do_Command_Execute_None("Delete from clerk where code='" + code + "'", true);
             return res == "1" ? true : false;
         }
     }
